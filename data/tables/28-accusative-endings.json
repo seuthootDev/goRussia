@@ -1,0 +1,128 @@
+{
+  "id": "28-accusative-endings",
+  "lesson": 28,
+  "category": "cases",
+  "titleKo": "Accusative (винительный) basic endings",
+  "titleEn": "Accusative (винительный) basic endings",
+  "titleRu": "Винительный падеж",
+  "note": "Direct object. Animate masculine = genitive; inanimate masculine = nominative.",
+  "columns": [
+    {
+      "id": "gender",
+      "labelKo": "Gender / number",
+      "labelEn": "Gender / number",
+      "labelRu": "род",
+      "quizable": false
+    },
+    {
+      "id": "rule",
+      "labelKo": "Rule",
+      "labelEn": "Rule",
+      "labelRu": "правило"
+    },
+    {
+      "id": "exampleNom",
+      "labelKo": "Nominative",
+      "labelEn": "Nominative",
+      "labelRu": "им."
+    },
+    {
+      "id": "exampleAcc",
+      "labelKo": "Accusative",
+      "labelEn": "Accusative",
+      "labelRu": "вин."
+    },
+    {
+      "id": "ko",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "gender": "masculine inanimate",
+      "rule": "= nominative",
+      "exampleNom": "стол",
+      "exampleNomPron": "스톨",
+      "exampleAcc": "стол",
+      "exampleAccPron": "스톨",
+      "ko": "table",
+      "en": "table"
+    },
+    {
+      "gender": "masculine animate",
+      "rule": "= genitive (-а/-я)",
+      "exampleNom": "студент",
+      "exampleNomPron": "스투덴트",
+      "exampleAcc": "студента",
+      "exampleAccPron": "스투덴타",
+      "ko": "student",
+      "en": "student"
+    },
+    {
+      "gender": "feminine -а/-я",
+      "rule": "-у / -ю",
+      "exampleNom": "книга / неделя",
+      "exampleNomPron": "크니가 / 니델랴",
+      "exampleAcc": "книгу / неделю",
+      "exampleAccPron": "크니구 / 니델류",
+      "ko": "book / week",
+      "en": "book / week"
+    },
+    {
+      "gender": "feminine -ь",
+      "rule": "= nominative",
+      "exampleNom": "ночь",
+      "exampleNomPron": "노치",
+      "exampleAcc": "ночь",
+      "exampleAccPron": "노치",
+      "ko": "night",
+      "en": "night"
+    },
+    {
+      "gender": "neuter",
+      "rule": "= nominative",
+      "exampleNom": "окно",
+      "exampleNomPron": "아크노",
+      "exampleAcc": "окно",
+      "exampleAccPron": "아크노",
+      "ko": "window",
+      "en": "window"
+    },
+    {
+      "gender": "plural inanimate",
+      "rule": "= nominative",
+      "exampleNom": "столы",
+      "exampleNomPron": "스톨리",
+      "exampleAcc": "столы",
+      "exampleAccPron": "스톨리",
+      "ko": "tables",
+      "en": "tables"
+    },
+    {
+      "gender": "plural animate",
+      "rule": "= genitive",
+      "exampleNom": "студенты",
+      "exampleNomPron": "스투덴티",
+      "exampleAcc": "студентов",
+      "exampleAccPron": "스투덴토프",
+      "ko": "students",
+      "en": "students"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "nom-to-acc",
+        "labelKo": "Nominative → accusative",
+        "labelEn": "Nominative → accusative",
+        "promptColumns": [
+          "exampleNom",
+          "gender"
+        ],
+        "answerColumn": "exampleAcc"
+      }
+    ]
+  }
+}

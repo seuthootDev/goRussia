@@ -1,0 +1,92 @@
+{
+  "id": "18-past-tense",
+  "lesson": 18,
+  "category": "verbs",
+  "titleKo": "Past tense endings",
+  "titleEn": "Past tense endings",
+  "titleRu": "Прошедшее время",
+  "note": "Stem + л + gender/number ending. Person is shown by the pronoun.",
+  "columns": [
+    {
+      "id": "form",
+      "labelKo": "Form",
+      "labelEn": "Form",
+      "labelRu": "форма",
+      "quizable": false
+    },
+    {
+      "id": "ending",
+      "labelKo": "Ending",
+      "labelEn": "Ending",
+      "labelRu": "оконч."
+    },
+    {
+      "id": "example",
+      "labelKo": "Example (делать)",
+      "labelEn": "Example (делать)",
+      "labelRu": "пример"
+    },
+    {
+      "id": "ko",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "form": "masculine",
+      "ending": "-л",
+      "example": "делал",
+      "examplePron": "델랄",
+      "ko": "(he) did",
+      "en": "(he) did"
+    },
+    {
+      "form": "feminine",
+      "ending": "-ла",
+      "example": "делала",
+      "examplePron": "델랄라",
+      "ko": "(she) did",
+      "en": "(she) did"
+    },
+    {
+      "form": "neuter",
+      "ending": "-ло",
+      "example": "делало",
+      "examplePron": "델랄로",
+      "ko": "(it) did",
+      "en": "(it) did"
+    },
+    {
+      "form": "plural",
+      "ending": "-ли",
+      "example": "делали",
+      "examplePron": "델랄리",
+      "ko": "(they) did",
+      "en": "(they) did"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "form-to-example",
+        "labelKo": "Form → example",
+        "labelEn": "Form → example",
+        "promptColumns": [
+          "form"
+        ],
+        "answerColumn": "example"
+      },
+      {
+        "id": "form-to-ending",
+        "labelKo": "Form → ending",
+        "labelEn": "Form → ending",
+        "promptColumns": [
+          "form"
+        ],
+        "answerColumn": "ending"
+      }
+    ]
+  }
+}

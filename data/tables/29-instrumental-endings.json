@@ -1,0 +1,108 @@
+{
+  "id": "29-instrumental-endings",
+  "lesson": 29,
+  "category": "cases",
+  "titleKo": "Instrumental (творительный) basic endings",
+  "titleEn": "Instrumental (творительный) basic endings",
+  "titleRu": "Творительный падеж",
+  "note": "Used for «with …» (с), means/instruments, seasons (зимой), etc.",
+  "columns": [
+    {
+      "id": "gender",
+      "labelKo": "Gender / number",
+      "labelEn": "Gender / number",
+      "labelRu": "род",
+      "quizable": false
+    },
+    {
+      "id": "nom",
+      "labelKo": "Nominative ending",
+      "labelEn": "Nominative ending",
+      "labelRu": "им."
+    },
+    {
+      "id": "instr",
+      "labelKo": "Instrumental ending",
+      "labelEn": "Instrumental ending",
+      "labelRu": "тв."
+    },
+    {
+      "id": "exampleNom",
+      "labelKo": "Nominative example",
+      "labelEn": "Nominative example",
+      "labelRu": "им. пр."
+    },
+    {
+      "id": "exampleInstr",
+      "labelKo": "Instrumental example",
+      "labelEn": "Instrumental example",
+      "labelRu": "тв. пр."
+    },
+    {
+      "id": "ko",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "gender": "masculine",
+      "nom": "consonant / -й / -ь",
+      "instr": "-ом / -ем / -ём",
+      "exampleNom": "друг / музей",
+      "exampleNomPron": "드룩 / 무제이",
+      "exampleInstr": "другом / музеем",
+      "exampleInstrPron": "드루곰 / 무제옘",
+      "ko": "friend / museum",
+      "en": "friend / museum"
+    },
+    {
+      "gender": "feminine",
+      "nom": "-а / -я",
+      "instr": "-ой / -ей",
+      "exampleNom": "мама / неделя",
+      "exampleNomPron": "마마 / 니델랴",
+      "exampleInstr": "мамой / неделей",
+      "exampleInstrPron": "마모이 / 니델례이",
+      "ko": "mom / week",
+      "en": "mom / week"
+    },
+    {
+      "gender": "neuter",
+      "nom": "-о / -е",
+      "instr": "-ом / -ем",
+      "exampleNom": "окно / море",
+      "exampleNomPron": "아크노 / 모레",
+      "exampleInstr": "окном / морем",
+      "exampleInstrPron": "아크놈 / 모렘",
+      "ko": "window / sea",
+      "en": "window / sea"
+    },
+    {
+      "gender": "plural",
+      "nom": "various",
+      "instr": "-ами / -ями",
+      "exampleNom": "друзья / книги",
+      "exampleNomPron": "드루쟈 / 크니기",
+      "exampleInstr": "друзьями / книгами",
+      "exampleInstrPron": "드루자아미 / 크니가미",
+      "ko": "friends / books",
+      "en": "friends / books"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "nom-to-instr",
+        "labelKo": "Nominative → instrumental",
+        "labelEn": "Nominative → instrumental",
+        "promptColumns": [
+          "exampleNom",
+          "ko"
+        ],
+        "answerColumn": "exampleInstr"
+      }
+    ]
+  }
+}

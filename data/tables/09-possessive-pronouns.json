@@ -1,0 +1,171 @@
+{
+  "id": "09-possessive-pronouns",
+  "lesson": 9,
+  "category": "pronouns",
+  "titleKo": "Possessive pronouns (nominative)",
+  "titleEn": "Possessive pronouns (nominative)",
+  "titleRu": "Притяжательные местоимения",
+  "note": "мой/твой/наш/ваш change for gender and number. его/её/их are invariable.",
+  "columns": [
+    {
+      "id": "base",
+      "labelKo": "Base",
+      "labelEn": "Base",
+      "labelRu": "база",
+      "quizable": false
+    },
+    {
+      "id": "m",
+      "labelKo": "Masculine",
+      "labelEn": "Masculine",
+      "labelRu": "м.р."
+    },
+    {
+      "id": "f",
+      "labelKo": "Feminine",
+      "labelEn": "Feminine",
+      "labelRu": "ж.р."
+    },
+    {
+      "id": "n",
+      "labelKo": "Neuter",
+      "labelEn": "Neuter",
+      "labelRu": "ср.р."
+    },
+    {
+      "id": "pl",
+      "labelKo": "Plural",
+      "labelEn": "Plural",
+      "labelRu": "мн."
+    },
+    {
+      "id": "ko",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "base": "мой",
+      "basePron": "모이",
+      "m": "мой",
+      "mPron": "모이",
+      "f": "моя",
+      "fPron": "마야",
+      "n": "моё",
+      "nPron": "마요",
+      "pl": "мои",
+      "plPron": "마이",
+      "ko": "my",
+      "en": "my"
+    },
+    {
+      "base": "твой",
+      "basePron": "트보이",
+      "m": "твой",
+      "mPron": "트보이",
+      "f": "твоя",
+      "fPron": "트바야",
+      "n": "твоё",
+      "nPron": "트바요",
+      "pl": "твои",
+      "plPron": "트바이",
+      "ko": "your (sg. familiar)",
+      "en": "your (sg. familiar)"
+    },
+    {
+      "base": "наш",
+      "basePron": "나시",
+      "m": "наш",
+      "mPron": "나시",
+      "f": "наша",
+      "fPron": "나사",
+      "n": "наше",
+      "nPron": "나셰",
+      "pl": "наши",
+      "plPron": "나시",
+      "ko": "our",
+      "en": "our"
+    },
+    {
+      "base": "ваш",
+      "basePron": "바시",
+      "m": "ваш",
+      "mPron": "바시",
+      "f": "ваша",
+      "fPron": "바샤",
+      "n": "ваше",
+      "nPron": "바셰",
+      "pl": "ваши",
+      "plPron": "바시",
+      "ko": "your (pl. / polite)",
+      "en": "your (pl. / polite)"
+    },
+    {
+      "base": "его",
+      "basePron": "예보",
+      "m": "его",
+      "mPron": "예보",
+      "f": "его",
+      "fPron": "예보",
+      "n": "его",
+      "nPron": "예보",
+      "pl": "его",
+      "plPron": "예보",
+      "ko": "his (invariable)",
+      "en": "his (invariable)"
+    },
+    {
+      "base": "её",
+      "basePron": "예요",
+      "m": "её",
+      "mPron": "예요",
+      "f": "её",
+      "fPron": "예요",
+      "n": "её",
+      "nPron": "예요",
+      "pl": "её",
+      "plPron": "예요",
+      "ko": "her (invariable)",
+      "en": "her (invariable)"
+    },
+    {
+      "base": "их",
+      "basePron": "이흐",
+      "m": "их",
+      "mPron": "이흐",
+      "f": "их",
+      "fPron": "이흐",
+      "n": "их",
+      "nPron": "이흐",
+      "pl": "их",
+      "plPron": "이흐",
+      "ko": "their (invariable)",
+      "en": "their (invariable)"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "base-to-f",
+        "labelKo": "Base → feminine form",
+        "labelEn": "Base → feminine form",
+        "promptColumns": [
+          "base",
+          "ko"
+        ],
+        "answerColumn": "f"
+      },
+      {
+        "id": "ko-to-m",
+        "labelKo": "Meaning → masculine form",
+        "labelEn": "Meaning → masculine form",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "m"
+      }
+    ]
+  }
+}

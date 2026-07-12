@@ -1,0 +1,85 @@
+{
+  "id": "10-seasons",
+  "lesson": 10,
+  "category": "vocab",
+  "titleKo": "Seasons",
+  "titleEn": "Seasons",
+  "titleRu": "Времена года",
+  "note": "«In winter» is зимой (instrumental). весной, летом, осенью.",
+  "columns": [
+    {
+      "id": "ru",
+      "labelKo": "Nominative",
+      "labelEn": "Nominative",
+      "labelRu": "им. п."
+    },
+    {
+      "id": "instr",
+      "labelKo": "«In …» (instrumental)",
+      "labelEn": "«In …» (instrumental)",
+      "labelRu": "тв. п."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "ru": "зима",
+      "ruPron": "지마",
+      "instr": "зимой",
+      "instrPron": "지모이",
+      "ko": "winter",
+      "en": "winter"
+    },
+    {
+      "ru": "весна",
+      "ruPron": "베스나",
+      "instr": "весной",
+      "instrPron": "베스노이",
+      "ko": "spring",
+      "en": "spring"
+    },
+    {
+      "ru": "лето",
+      "ruPron": "례토",
+      "instr": "летом",
+      "instrPron": "례톰",
+      "ko": "summer",
+      "en": "summer"
+    },
+    {
+      "ru": "осень",
+      "ruPron": "아센",
+      "instr": "осенью",
+      "instrPron": "아세뉴",
+      "ko": "autumn / fall",
+      "en": "autumn / fall"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-ru",
+        "labelKo": "English → nominative",
+        "labelEn": "English → nominative",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ko-to-instr",
+        "labelKo": "English → «in …»",
+        "labelEn": "English → «in …»",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "instr"
+      }
+    ]
+  }
+}

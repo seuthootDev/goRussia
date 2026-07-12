@@ -1,0 +1,148 @@
+{
+  "id": "05-nationality",
+  "lesson": 5,
+  "category": "vocab",
+  "titleKo": "Nationality",
+  "titleEn": "Nationality",
+  "titleRu": "Национальность",
+  "note": "Learn masculine and feminine forms together. Я кореец / Я кореянка.",
+  "columns": [
+    {
+      "id": "country",
+      "labelKo": "Country",
+      "labelEn": "Country",
+      "labelRu": "страна"
+    },
+    {
+      "id": "male",
+      "labelKo": "Masculine",
+      "labelEn": "Masculine",
+      "labelRu": "м.р."
+    },
+    {
+      "id": "female",
+      "labelKo": "Feminine",
+      "labelEn": "Feminine",
+      "labelRu": "ж.р."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "country": "Россия",
+      "countryPron": "라시야",
+      "male": "русский",
+      "malePron": "루스키",
+      "female": "русская",
+      "femalePron": "루스카야",
+      "ko": "Russia",
+      "en": "Russia"
+    },
+    {
+      "country": "Корея",
+      "countryPron": "카레야",
+      "male": "кореец",
+      "malePron": "카례예츠",
+      "female": "кореянка",
+      "femalePron": "카례얀카",
+      "ko": "Korea",
+      "en": "Korea"
+    },
+    {
+      "country": "Япония",
+      "countryPron": "야포니야",
+      "male": "японец",
+      "malePron": "야포네츠",
+      "female": "японка",
+      "femalePron": "야폰카",
+      "ko": "Japan",
+      "en": "Japan"
+    },
+    {
+      "country": "Китай",
+      "countryPron": "키타이",
+      "male": "китаец",
+      "malePron": "키타예츠",
+      "female": "китаянка",
+      "femalePron": "키타얀카",
+      "ko": "China",
+      "en": "China"
+    },
+    {
+      "country": "Америка",
+      "countryPron": "아메리카",
+      "male": "американец",
+      "malePron": "아메리카네츠",
+      "female": "американка",
+      "femalePron": "아메리칸카",
+      "ko": "USA",
+      "en": "USA"
+    },
+    {
+      "country": "Англия",
+      "countryPron": "앙글리야",
+      "male": "англичанин",
+      "malePron": "앙글리차닌",
+      "female": "англичанка",
+      "femalePron": "앙글리찬카",
+      "ko": "England",
+      "en": "England"
+    },
+    {
+      "country": "Германия",
+      "countryPron": "게르마니야",
+      "male": "немец",
+      "malePron": "네메츠",
+      "female": "немка",
+      "femalePron": "넴카",
+      "ko": "Germany",
+      "en": "Germany"
+    },
+    {
+      "country": "Франция",
+      "countryPron": "프란치야",
+      "male": "француз",
+      "malePron": "프란추스",
+      "female": "француженка",
+      "femalePron": "프란추젠카",
+      "ko": "France",
+      "en": "France"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-male",
+        "labelKo": "English → masculine nationality",
+        "labelEn": "English → masculine nationality",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "male"
+      },
+      {
+        "id": "ko-to-female",
+        "labelKo": "English → feminine nationality",
+        "labelEn": "English → feminine nationality",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "female"
+      },
+      {
+        "id": "country-to-ko",
+        "labelKo": "Country → English",
+        "labelEn": "Country → English",
+        "promptColumns": [
+          "country"
+        ],
+        "answerColumn": "ko"
+      }
+    ]
+  }
+}

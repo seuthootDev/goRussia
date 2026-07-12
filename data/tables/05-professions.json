@@ -1,0 +1,132 @@
+{
+  "id": "05-professions",
+  "lesson": 5,
+  "category": "vocab",
+  "titleKo": "Professions",
+  "titleEn": "Professions",
+  "titleRu": "Профессии",
+  "columns": [
+    {
+      "id": "male",
+      "labelKo": "Masculine",
+      "labelEn": "Masculine",
+      "labelRu": "м.р."
+    },
+    {
+      "id": "female",
+      "labelKo": "Feminine",
+      "labelEn": "Feminine",
+      "labelRu": "ж.р."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "male": "студент",
+      "malePron": "스투덴트",
+      "female": "студентка",
+      "femalePron": "스투덴트카",
+      "ko": "university student",
+      "en": "university student"
+    },
+    {
+      "male": "учитель",
+      "malePron": "우치텔",
+      "female": "учительница",
+      "femalePron": "우치텔니차",
+      "ko": "teacher",
+      "en": "teacher"
+    },
+    {
+      "male": "врач",
+      "malePron": "브라치",
+      "female": "врач",
+      "femalePron": "브라치",
+      "ko": "doctor",
+      "en": "doctor"
+    },
+    {
+      "male": "инженер",
+      "malePron": "인제네르",
+      "female": "инженер",
+      "femalePron": "인제네르",
+      "ko": "engineer",
+      "en": "engineer"
+    },
+    {
+      "male": "программист",
+      "malePron": "프라그람미스트",
+      "female": "программистка",
+      "femalePron": "프라그람미스트카",
+      "ko": "programmer",
+      "en": "programmer"
+    },
+    {
+      "male": "журналист",
+      "malePron": "주르날리스트",
+      "female": "журналистка",
+      "femalePron": "주르날리스트카",
+      "ko": "journalist",
+      "en": "journalist"
+    },
+    {
+      "male": "водитель",
+      "malePron": "바디텔",
+      "female": "водитель",
+      "femalePron": "바디텔",
+      "ko": "driver",
+      "en": "driver"
+    },
+    {
+      "male": "повар",
+      "malePron": "파바르",
+      "female": "повар",
+      "femalePron": "파바르",
+      "ko": "cook",
+      "en": "cook"
+    },
+    {
+      "male": "артист",
+      "malePron": "아르티스트",
+      "female": "артистка",
+      "femalePron": "아르티스트카",
+      "ko": "actor / artist",
+      "en": "actor / artist"
+    },
+    {
+      "male": "бизнесмен",
+      "malePron": "비즈네스멘",
+      "female": "бизнесвумен",
+      "femalePron": "비즈네스부멘",
+      "ko": "businessperson",
+      "en": "businessperson"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-male",
+        "labelKo": "English → masculine profession",
+        "labelEn": "English → masculine profession",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "male"
+      },
+      {
+        "id": "male-to-ko",
+        "labelKo": "Russian → English",
+        "labelEn": "Russian → English",
+        "promptColumns": [
+          "male"
+        ],
+        "answerColumn": "ko"
+      }
+    ]
+  }
+}

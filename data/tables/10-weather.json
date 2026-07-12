@@ -1,0 +1,118 @@
+{
+  "id": "10-weather",
+  "lesson": 10,
+  "category": "vocab",
+  "titleKo": "Weather expressions",
+  "titleEn": "Weather expressions",
+  "titleRu": "Погода",
+  "columns": [
+    {
+      "id": "ru",
+      "labelKo": "Russian",
+      "labelEn": "Russian",
+      "labelRu": "рус."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "ru": "погода",
+      "ruPron": "파고다",
+      "ko": "weather",
+      "en": "weather"
+    },
+    {
+      "ru": "Сегодня хорошая погода.",
+      "ruPron": "시보드냐 하라샤야 파고다.",
+      "ko": "The weather is good today.",
+      "en": "The weather is good today."
+    },
+    {
+      "ru": "Солнечно.",
+      "ruPron": "솔네치나.",
+      "ko": "It's sunny.",
+      "en": "It's sunny."
+    },
+    {
+      "ru": "Пасмурно.",
+      "ruPron": "파스무르나.",
+      "ko": "It's cloudy.",
+      "en": "It's cloudy."
+    },
+    {
+      "ru": "Идёт дождь.",
+      "ruPron": "이젇 도시치.",
+      "ko": "It's raining.",
+      "en": "It's raining."
+    },
+    {
+      "ru": "Идёт снег.",
+      "ruPron": "이젇 스넥.",
+      "ko": "It's snowing.",
+      "en": "It's snowing."
+    },
+    {
+      "ru": "Дует ветер.",
+      "ruPron": "두예트 베떼르.",
+      "ko": "It's windy.",
+      "en": "It's windy."
+    },
+    {
+      "ru": "Холодно.",
+      "ruPron": "홀라드나.",
+      "ko": "It's cold.",
+      "en": "It's cold."
+    },
+    {
+      "ru": "Тепло.",
+      "ruPron": "쩨플로.",
+      "ko": "It's warm.",
+      "en": "It's warm."
+    },
+    {
+      "ru": "Жарко.",
+      "ruPron": "자르카.",
+      "ko": "It's hot.",
+      "en": "It's hot."
+    },
+    {
+      "ru": "Прохладно.",
+      "ruPron": "프라흘라드나.",
+      "ko": "It's cool.",
+      "en": "It's cool."
+    },
+    {
+      "ru": "Туман",
+      "ruPron": "투만",
+      "ko": "fog",
+      "en": "fog"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-ru",
+        "labelKo": "English → Russian",
+        "labelEn": "English → Russian",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ru-to-ko",
+        "labelKo": "Russian → English",
+        "labelEn": "Russian → English",
+        "promptColumns": [
+          "ru"
+        ],
+        "answerColumn": "ko"
+      }
+    ]
+  }
+}

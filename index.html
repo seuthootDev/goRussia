@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goRussia · Russian Drill</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+KR:wght@400;600&family=Oswald:wght@500;600;700&family=Russo+One&family=Stalinist+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <main class="shell">
+      <header class="brand-header">
+        <img
+          class="emblem"
+          src="assets/cccp.png"
+          width="64"
+          height="64"
+          alt="RSFSR emblem"
+        />
+        <div class="brand-text">
+          <p class="cccp-mark" aria-label="SSSR">СССР</p>
+          <h1>goRussia</h1>
+          <p class="subtitle">Tables · Drills</p>
+          <p class="eyebrow" id="roundLabel">УЧИТЬСЯ</p>
+        </div>
+      </header>
+
+      <section class="panel" id="homeCard">
+        <p class="panel-lead">Choose a table</p>
+        <div class="filter-row" role="group" aria-label="Lesson filter">
+          <label class="sr-only" for="lessonFilter">Lesson</label>
+          <select id="lessonFilter">
+            <option value="all">All lessons</option>
+          </select>
+        </div>
+        <div class="table-grid" id="tableGrid"></div>
+        <p class="hint" id="loadHint">Loading tables…</p>
+      </section>
+
+      <section class="panel hidden" id="studyCard">
+        <div class="panel-toolbar">
+          <button type="button" class="ghost-button" id="backHomeBtn">← List</button>
+          <p class="lesson-chip" id="studyLessonChip"></p>
+        </div>
+        <h2 class="panel-title" id="studyTitle"></h2>
+        <p class="panel-note" id="studyNote"></p>
+        <div class="table-scroll">
+          <table class="study-table" id="studyTable">
+            <thead id="studyThead"></thead>
+            <tbody id="studyTbody"></tbody>
+          </table>
+        </div>
+        <p class="hint">Hover Russian text for Hangul pronunciation.</p>
+        <div class="mode-row" id="quizModeRow" role="group" aria-label="Quiz modes"></div>
+      </section>
+
+      <section class="panel hidden" id="quizCard">
+        <div class="panel-toolbar">
+          <button type="button" class="ghost-button" id="backStudyBtn">← Table</button>
+          <p class="lesson-chip" id="quizModeChip"></p>
+        </div>
+
+        <div class="progress-wrap">
+          <p id="progressText">Question 1 / 10</p>
+          <div class="progress-track">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+        </div>
+
+        <div class="question-box">
+          <p class="question-label" id="questionLabel">Pick the answer</p>
+          <p class="prompt-text" id="promptText" title="">—</p>
+        </div>
+
+        <div class="choices" id="choices" role="group" aria-label="Answer choices"></div>
+
+        <div id="feedback" class="feedback" aria-live="polite">
+          <strong id="feedbackStatus" class="feedback-status">Ready</strong>
+          <span id="feedbackDetail" class="feedback-detail">Select an answer.</span>
+        </div>
+      </section>
+
+      <section class="panel hidden" id="resultCard">
+        <h2 id="resultTitle">Result</h2>
+        <p id="resultSummary"></p>
+        <ul id="wrongList" class="wrong-list"></ul>
+        <div class="result-actions">
+          <button type="button" id="retryButton" class="primary-button">Retry missed</button>
+          <button type="button" id="resultHomeBtn" class="ghost-button">Back to list</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

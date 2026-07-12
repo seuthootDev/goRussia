@@ -1,0 +1,82 @@
+{
+  "id": "04-noun-gender",
+  "lesson": 4,
+  "category": "grammar",
+  "titleKo": "Noun gender (by ending)",
+  "titleEn": "Noun gender (by ending)",
+  "titleRu": "Род существительных",
+  "note": "Gender is usually inferred from the ending. Memorize exceptions separately (папа, дядя, кофе, etc.).",
+  "columns": [
+    {
+      "id": "gender",
+      "labelKo": "Gender",
+      "labelEn": "Gender",
+      "labelRu": "род",
+      "quizable": false
+    },
+    {
+      "id": "ending",
+      "labelKo": "Typical ending",
+      "labelEn": "Typical ending",
+      "labelRu": "окончание"
+    },
+    {
+      "id": "example",
+      "labelKo": "Example",
+      "labelEn": "Example",
+      "labelRu": "пример"
+    },
+    {
+      "id": "meaning",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "gender": "masculine м.р.",
+      "ending": "consonant / -й / -ь (some)",
+      "example": "стол, музей, день",
+      "examplePron": "스톨, 무제이, 젠",
+      "meaning": "table, museum, day"
+    },
+    {
+      "gender": "feminine ж.р.",
+      "ending": "-а / -я / -ь (some)",
+      "example": "книга, семья, ночь",
+      "examplePron": "크니가, 시먀, 노치",
+      "meaning": "book, family, night"
+    },
+    {
+      "gender": "neuter ср.р.",
+      "ending": "-о / -е / -мя",
+      "example": "окно, море, время",
+      "examplePron": "아크노, 모레, 브레먀",
+      "meaning": "window, sea, time"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ending-to-gender",
+        "labelKo": "Ending → gender",
+        "labelEn": "Ending → gender",
+        "promptColumns": [
+          "ending",
+          "example"
+        ],
+        "answerColumn": "gender"
+      },
+      {
+        "id": "example-to-gender",
+        "labelKo": "Example → gender",
+        "labelEn": "Example → gender",
+        "promptColumns": [
+          "example"
+        ],
+        "answerColumn": "gender"
+      }
+    ]
+  }
+}

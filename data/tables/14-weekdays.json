@@ -1,0 +1,123 @@
+{
+  "id": "14-weekdays",
+  "lesson": 14,
+  "category": "time",
+  "titleKo": "Weekdays",
+  "titleEn": "Weekdays",
+  "titleRu": "Дни недели",
+  "note": "«On Monday» is в понедельник (accusative). Tue–Sun usually use в + prepositional (or accusative for some).",
+  "columns": [
+    {
+      "id": "n",
+      "labelKo": "Order",
+      "labelEn": "Order",
+      "labelRu": "№",
+      "quizable": false
+    },
+    {
+      "id": "ru",
+      "labelKo": "Nominative",
+      "labelEn": "Nominative",
+      "labelRu": "им. п."
+    },
+    {
+      "id": "onDay",
+      "labelKo": "«On …»",
+      "labelEn": "«On …»",
+      "labelRu": "в …"
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "n": "1",
+      "ru": "понедельник",
+      "ruPron": "파니델니크",
+      "onDay": "в понедельник",
+      "onDayPron": "브 파니델니크",
+      "ko": "Monday",
+      "en": "Monday"
+    },
+    {
+      "n": "2",
+      "ru": "вторник",
+      "ruPron": "프토르니크",
+      "onDay": "во вторник",
+      "onDayPron": "보 프토르니크",
+      "ko": "Tuesday",
+      "en": "Tuesday"
+    },
+    {
+      "n": "3",
+      "ru": "среда",
+      "ruPron": "스레다",
+      "onDay": "в среду",
+      "onDayPron": "브 스레두",
+      "ko": "Wednesday",
+      "en": "Wednesday"
+    },
+    {
+      "n": "4",
+      "ru": "четверг",
+      "ruPron": "치트베르크",
+      "onDay": "в четверг",
+      "onDayPron": "브 치트베르크",
+      "ko": "Thursday",
+      "en": "Thursday"
+    },
+    {
+      "n": "5",
+      "ru": "пятница",
+      "ruPron": "퍄트니차",
+      "onDay": "в пятницу",
+      "onDayPron": "브 퍄트니추",
+      "ko": "Friday",
+      "en": "Friday"
+    },
+    {
+      "n": "6",
+      "ru": "суббота",
+      "ruPron": "수보타",
+      "onDay": "в субботу",
+      "onDayPron": "브 수보투",
+      "ko": "Saturday",
+      "en": "Saturday"
+    },
+    {
+      "n": "7",
+      "ru": "воскресенье",
+      "ruPron": "바스크레세니예",
+      "onDay": "в воскресенье",
+      "onDayPron": "브 바스크레세니예",
+      "ko": "Sunday",
+      "en": "Sunday"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-ru",
+        "labelKo": "English → nominative",
+        "labelEn": "English → nominative",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ko-to-onDay",
+        "labelKo": "English → «on …»",
+        "labelEn": "English → «on …»",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "onDay"
+      }
+    ]
+  }
+}

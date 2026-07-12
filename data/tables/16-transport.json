@@ -1,0 +1,133 @@
+{
+  "id": "16-transport",
+  "lesson": 16,
+  "category": "vocab",
+  "titleKo": "Transport",
+  "titleEn": "Transport",
+  "titleRu": "Транспорт",
+  "note": "«By bus» is на автобусе (prepositional). на + prepositional is the basic pattern.",
+  "columns": [
+    {
+      "id": "ru",
+      "labelKo": "Nominative",
+      "labelEn": "Nominative",
+      "labelRu": "им. п."
+    },
+    {
+      "id": "by",
+      "labelKo": "«By …»",
+      "labelEn": "«By …»",
+      "labelRu": "на + пр."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "ru": "автобус",
+      "ruPron": "아프토부스",
+      "by": "на автобусе",
+      "byPron": "나 아프토부세",
+      "ko": "bus",
+      "en": "bus"
+    },
+    {
+      "ru": "метро",
+      "ruPron": "메트로",
+      "by": "на метро",
+      "byPron": "나 메트로",
+      "ko": "metro / subway",
+      "en": "metro / subway"
+    },
+    {
+      "ru": "поезд",
+      "ruPron": "포예스트",
+      "by": "на поезде",
+      "byPron": "나 파예즈데",
+      "ko": "train",
+      "en": "train"
+    },
+    {
+      "ru": "машина",
+      "ruPron": "마시나",
+      "by": "на машине",
+      "byPron": "나 마시네",
+      "ko": "car",
+      "en": "car"
+    },
+    {
+      "ru": "такси",
+      "ruPron": "탁시",
+      "by": "на такси",
+      "byPron": "나 탁시",
+      "ko": "taxi",
+      "en": "taxi"
+    },
+    {
+      "ru": "трамвай",
+      "ruPron": "트람바이",
+      "by": "на трамвае",
+      "byPron": "나 트람바예",
+      "ko": "tram",
+      "en": "tram"
+    },
+    {
+      "ru": "троллейбус",
+      "ruPron": "트랄례이부스",
+      "by": "на троллейбусе",
+      "byPron": "나 트랄례이부세",
+      "ko": "trolleybus",
+      "en": "trolleybus"
+    },
+    {
+      "ru": "самолёт",
+      "ruPron": "사말료트",
+      "by": "на самолёте",
+      "byPron": "나 사말료떼",
+      "ko": "airplane",
+      "en": "airplane"
+    },
+    {
+      "ru": "велосипед",
+      "ruPron": "벨라시페트",
+      "by": "на велосипеде",
+      "byPron": "나 벨라시페데",
+      "ko": "bicycle",
+      "en": "bicycle"
+    },
+    {
+      "ru": "пешком",
+      "ruPron": "페슈콤",
+      "by": "пешком",
+      "byPron": "페슈콤",
+      "ko": "on foot (adverb)",
+      "en": "on foot (adverb)"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-ru",
+        "labelKo": "English → nominative",
+        "labelEn": "English → nominative",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ko-to-by",
+        "labelKo": "English → «by …»",
+        "labelEn": "English → «by …»",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "by"
+      }
+    ]
+  }
+}

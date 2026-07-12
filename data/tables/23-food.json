@@ -1,0 +1,178 @@
+{
+  "id": "23-food",
+  "lesson": 23,
+  "category": "vocab",
+  "titleKo": "Food · restaurant",
+  "titleEn": "Food · restaurant",
+  "titleRu": "Еда и ресторан",
+  "columns": [
+    {
+      "id": "ru",
+      "labelKo": "Russian",
+      "labelEn": "Russian",
+      "labelRu": "рус."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "ru": "ресторан",
+      "ruPron": "리스타란",
+      "ko": "restaurant",
+      "en": "restaurant"
+    },
+    {
+      "ru": "кафе",
+      "ruPron": "카페",
+      "ko": "café",
+      "en": "café"
+    },
+    {
+      "ru": "меню",
+      "ruPron": "메뉴",
+      "ko": "menu",
+      "en": "menu"
+    },
+    {
+      "ru": "завтрак",
+      "ruPron": "자프트락",
+      "ko": "breakfast",
+      "en": "breakfast"
+    },
+    {
+      "ru": "обед",
+      "ruPron": "아벳",
+      "ko": "lunch",
+      "en": "lunch"
+    },
+    {
+      "ru": "ужин",
+      "ruPron": "우진",
+      "ko": "dinner",
+      "en": "dinner"
+    },
+    {
+      "ru": "хлеб",
+      "ruPron": "흘렙",
+      "ko": "bread",
+      "en": "bread"
+    },
+    {
+      "ru": "суп",
+      "ruPron": "수프",
+      "ko": "soup",
+      "en": "soup"
+    },
+    {
+      "ru": "салат",
+      "ruPron": "살라트",
+      "ko": "salad",
+      "en": "salad"
+    },
+    {
+      "ru": "мясо",
+      "ruPron": "먀소",
+      "ko": "meat",
+      "en": "meat"
+    },
+    {
+      "ru": "рыба",
+      "ruPron": "리바",
+      "ko": "fish",
+      "en": "fish"
+    },
+    {
+      "ru": "курица",
+      "ruPron": "쿠리차",
+      "ko": "chicken",
+      "en": "chicken"
+    },
+    {
+      "ru": "рис",
+      "ruPron": "리스",
+      "ko": "rice",
+      "en": "rice"
+    },
+    {
+      "ru": "овощи",
+      "ruPron": "오보시",
+      "ko": "vegetables",
+      "en": "vegetables"
+    },
+    {
+      "ru": "фрукты",
+      "ruPron": "프룩티",
+      "ko": "fruit",
+      "en": "fruit"
+    },
+    {
+      "ru": "вода",
+      "ruPron": "바다",
+      "ko": "water",
+      "en": "water"
+    },
+    {
+      "ru": "чай",
+      "ruPron": "차이",
+      "ko": "tea",
+      "en": "tea"
+    },
+    {
+      "ru": "кофе",
+      "ruPron": "코페",
+      "ko": "coffee",
+      "en": "coffee"
+    },
+    {
+      "ru": "сок",
+      "ruPron": "속",
+      "ko": "juice",
+      "en": "juice"
+    },
+    {
+      "ru": "счёт",
+      "ruPron": "쇼트",
+      "ko": "bill / check",
+      "en": "bill / check"
+    },
+    {
+      "ru": "пожалуйста",
+      "ruPron": "파잘루스타",
+      "ko": "please / here you are",
+      "en": "please / here you are"
+    },
+    {
+      "ru": "Я буду …",
+      "ruPron": "야 부두 …",
+      "ko": "I'll have …",
+      "en": "I'll have …"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-ru",
+        "labelKo": "English → Russian",
+        "labelEn": "English → Russian",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ru-to-ko",
+        "labelKo": "Russian → English",
+        "labelEn": "Russian → English",
+        "promptColumns": [
+          "ru"
+        ],
+        "answerColumn": "ko"
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "24-shopping",
+  "lesson": 24,
+  "category": "vocab",
+  "titleKo": "Shopping",
+  "titleEn": "Shopping",
+  "titleRu": "Покупки",
+  "columns": [
+    {
+      "id": "ru",
+      "labelKo": "Russian",
+      "labelEn": "Russian",
+      "labelRu": "рус."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "ru": "магазин",
+      "ruPron": "마가진",
+      "ko": "store / shop",
+      "en": "store / shop"
+    },
+    {
+      "ru": "супермаркет",
+      "ruPron": "수페르마르켓",
+      "ko": "supermarket",
+      "en": "supermarket"
+    },
+    {
+      "ru": "рынок",
+      "ruPron": "리녹",
+      "ko": "market",
+      "en": "market"
+    },
+    {
+      "ru": "сколько стоит?",
+      "ruPron": "스콜카 스토이트?",
+      "ko": "How much does it cost?",
+      "en": "How much does it cost?"
+    },
+    {
+      "ru": "дорого / дешево",
+      "ruPron": "도로가 / 데셰바",
+      "ko": "expensive / cheap",
+      "en": "expensive / cheap"
+    },
+    {
+      "ru": "рубль",
+      "ruPron": "루블",
+      "ko": "ruble",
+      "en": "ruble"
+    },
+    {
+      "ru": "деньги",
+      "ruPron": "덴기",
+      "ko": "money",
+      "en": "money"
+    },
+    {
+      "ru": "карта",
+      "ruPron": "카르타",
+      "ko": "card",
+      "en": "card"
+    },
+    {
+      "ru": "наличные",
+      "ruPron": "날리치니예",
+      "ko": "cash",
+      "en": "cash"
+    },
+    {
+      "ru": "размер",
+      "ruPron": "라즈메르",
+      "ko": "size",
+      "en": "size"
+    },
+    {
+      "ru": "цвет",
+      "ruPron": "츠베트",
+      "ko": "color",
+      "en": "color"
+    },
+    {
+      "ru": "примерка",
+      "ruPron": "프리메르카",
+      "ko": "fitting room / trying on",
+      "en": "fitting room / trying on"
+    },
+    {
+      "ru": "скидка",
+      "ruPron": "스키드카",
+      "ko": "discount",
+      "en": "discount"
+    },
+    {
+      "ru": "Я хочу купить …",
+      "ruPron": "야 하추 쿠피티 …",
+      "ko": "I want to buy …",
+      "en": "I want to buy …"
+    },
+    {
+      "ru": "Можно примерить?",
+      "ruPron": "모즈나 프리메리티?",
+      "ko": "May I try it on?",
+      "en": "May I try it on?"
+    },
+    {
+      "ru": "Я возьму это.",
+      "ruPron": "야 바지무 에타.",
+      "ko": "I'll take this.",
+      "en": "I'll take this."
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-ru",
+        "labelKo": "English → Russian",
+        "labelEn": "English → Russian",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ru-to-ko",
+        "labelKo": "Russian → English",
+        "labelEn": "Russian → English",
+        "promptColumns": [
+          "ru"
+        ],
+        "answerColumn": "ko"
+      }
+    ]
+  }
+}

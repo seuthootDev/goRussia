@@ -1,0 +1,112 @@
+{
+  "id": "06-adjective-endings",
+  "lesson": 6,
+  "category": "grammar",
+  "titleKo": "Basic adjective endings (nominative)",
+  "titleEn": "Basic adjective endings (nominative)",
+  "titleRu": "Окончания прилагательных (им. п.)",
+  "note": "Typical after hard consonants: -ый/-ая/-ое/-ые. Soft consonants and some others: -ий/-яя/-ее/-ие.",
+  "columns": [
+    {
+      "id": "type",
+      "labelKo": "Type",
+      "labelEn": "Type",
+      "labelRu": "тип",
+      "quizable": false
+    },
+    {
+      "id": "m",
+      "labelKo": "Masculine",
+      "labelEn": "Masculine",
+      "labelRu": "м.р."
+    },
+    {
+      "id": "f",
+      "labelKo": "Feminine",
+      "labelEn": "Feminine",
+      "labelRu": "ж.р."
+    },
+    {
+      "id": "n",
+      "labelKo": "Neuter",
+      "labelEn": "Neuter",
+      "labelRu": "ср.р."
+    },
+    {
+      "id": "pl",
+      "labelKo": "Plural",
+      "labelEn": "Plural",
+      "labelRu": "мн."
+    },
+    {
+      "id": "example",
+      "labelKo": "Example (m.)",
+      "labelEn": "Example (m.)",
+      "labelRu": "пример"
+    },
+    {
+      "id": "ko",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "type": "After hard consonant",
+      "m": "-ый",
+      "f": "-ая",
+      "n": "-ое",
+      "pl": "-ые",
+      "example": "новый",
+      "examplePron": "노비",
+      "ko": "new",
+      "en": "new"
+    },
+    {
+      "type": "After soft consonant / -н- etc.",
+      "m": "-ий",
+      "f": "-яя",
+      "n": "-ее",
+      "pl": "-ие",
+      "example": "синий",
+      "examplePron": "시니",
+      "ko": "blue",
+      "en": "blue"
+    },
+    {
+      "type": "Stressed -ой",
+      "m": "-ой",
+      "f": "-ая",
+      "n": "-ое",
+      "pl": "-ые",
+      "example": "большой",
+      "examplePron": "발쇼이",
+      "ko": "big",
+      "en": "big"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "m-to-f",
+        "labelKo": "Masculine → feminine ending",
+        "labelEn": "Masculine → feminine ending",
+        "promptColumns": [
+          "example",
+          "m"
+        ],
+        "answerColumn": "f"
+      },
+      {
+        "id": "stem-to-forms",
+        "labelKo": "Example → plural ending",
+        "labelEn": "Example → plural ending",
+        "promptColumns": [
+          "example"
+        ],
+        "answerColumn": "pl"
+      }
+    ]
+  }
+}

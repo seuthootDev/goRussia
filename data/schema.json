@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "goRussia Table",
+  "description": "Lesson table data for display and quiz generation.",
+  "type": "object",
+  "required": ["id", "lesson", "columns", "rows"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique id (preferably matches filename)"
+    },
+    "lesson": {
+      "type": "integer",
+      "minimum": 4,
+      "maximum": 30,
+      "description": "Lesson number"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "grammar",
+        "pronouns",
+        "verbs",
+        "numbers",
+        "time",
+        "vocab",
+        "cases",
+        "culture"
+      ]
+    },
+    "titleKo": { "type": "string", "description": "English title (legacy key)" },
+    "titleEn": { "type": "string" },
+    "titleRu": { "type": "string" },
+    "note": {
+      "type": "string",
+      "description": "Study tip / exception note (English)"
+    },
+    "columns": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": { "type": "string" },
+          "labelKo": { "type": "string", "description": "English label (legacy key)" },
+          "labelEn": { "type": "string" },
+          "labelRu": { "type": "string" },
+          "quizable": {
+            "type": "boolean",
+            "default": true,
+            "description": "Whether this column can be used for quiz answers"
+          }
+        }
+      }
+    },
+    "rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "description": "Keys match columns[].id. For Russian field X, optional XPron holds Hangul pronunciation (tooltip only).",
+        "additionalProperties": {
+          "oneOf": [
+            { "type": "string" },
+            {
+              "type": "array",
+              "items": { "type": "string" },
+              "minItems": 1
+            }
+          ]
+        },
+        "examples": [
+          {
+            "ru": "январь",
+            "ruPron": "얀바리",
+            "en": "January",
+            "ko": "January"
+          }
+        ]
+      }
+    },
+    "pronunciation": {
+      "type": "object",
+      "description": "Optional convention note. Actual pronunciations live in row {columnId}Pron fields.",
+      "properties": {
+        "convention": {
+          "type": "string",
+          "description": "e.g. Russian → Hangul. Multiple forms separated by ' / '."
+        }
+      }
+    },
+    "quiz": {
+      "type": "object",
+      "description": "How to build quiz items from this table",
+      "properties": {
+        "modes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "promptColumns", "answerColumn"],
+            "properties": {
+              "id": { "type": "string" },
+              "labelKo": { "type": "string" },
+              "labelEn": { "type": "string" },
+              "promptColumns": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "answerColumn": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "15-verb-group2",
+  "lesson": 15,
+  "category": "verbs",
+  "titleKo": "2nd conjugation example: говорить",
+  "titleEn": "2nd conjugation example: говорить",
+  "titleRu": "II спряжение — говорить",
+  "note": "2nd conjugation: -у/-ю, -ишь, -ит, -им, -ите, -ат/-ят",
+  "columns": [
+    {
+      "id": "person",
+      "labelKo": "Person",
+      "labelEn": "Person",
+      "labelRu": "лицо"
+    },
+    {
+      "id": "form",
+      "labelKo": "Present",
+      "labelEn": "Present",
+      "labelRu": "наст."
+    },
+    {
+      "id": "ko",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "person": "я",
+      "personPron": "야",
+      "form": "говорю",
+      "formPron": "가바류",
+      "ko": "I speak",
+      "en": "I speak"
+    },
+    {
+      "person": "ты",
+      "personPron": "티",
+      "form": "говоришь",
+      "formPron": "가바리시",
+      "ko": "you speak",
+      "en": "you speak"
+    },
+    {
+      "person": "он / она / оно",
+      "personPron": "온 / 아나 / 아노",
+      "form": "говорит",
+      "formPron": "가바릿",
+      "ko": "he/she/it speaks",
+      "en": "he/she/it speaks"
+    },
+    {
+      "person": "мы",
+      "personPron": "미",
+      "form": "говорим",
+      "formPron": "가바림",
+      "ko": "we speak",
+      "en": "we speak"
+    },
+    {
+      "person": "вы",
+      "personPron": "비",
+      "form": "говорите",
+      "formPron": "가바리떼",
+      "ko": "you (pl./polite) speak",
+      "en": "you (pl./polite) speak"
+    },
+    {
+      "person": "они",
+      "personPron": "아니",
+      "form": "говорят",
+      "formPron": "가바랴트",
+      "ko": "they speak",
+      "en": "they speak"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "person-to-form",
+        "labelKo": "Person → conjugated form",
+        "labelEn": "Person → conjugated form",
+        "promptColumns": [
+          "person"
+        ],
+        "answerColumn": "form"
+      }
+    ]
+  }
+}

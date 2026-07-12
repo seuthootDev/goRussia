@@ -1,0 +1,150 @@
+{
+  "id": "07-family",
+  "lesson": 7,
+  "category": "vocab",
+  "titleKo": "Family",
+  "titleEn": "Family",
+  "titleRu": "Семья",
+  "columns": [
+    {
+      "id": "ru",
+      "labelKo": "Russian",
+      "labelEn": "Russian",
+      "labelRu": "рус."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    },
+    {
+      "id": "gender",
+      "labelKo": "Gender",
+      "labelEn": "Gender",
+      "labelRu": "род"
+    }
+  ],
+  "rows": [
+    {
+      "ru": "семья",
+      "ruPron": "시먀",
+      "ko": "family",
+      "gender": "ж.р.",
+      "en": "family"
+    },
+    {
+      "ru": "отец / папа",
+      "ruPron": "아녜츠 / 파파",
+      "ko": "father / dad",
+      "gender": "м.р.",
+      "en": "father / dad"
+    },
+    {
+      "ru": "мать / мама",
+      "ruPron": "마치 / 마마",
+      "ko": "mother / mom",
+      "gender": "ж.р.",
+      "en": "mother / mom"
+    },
+    {
+      "ru": "родители",
+      "ruPron": "라디뗄리",
+      "ko": "parents",
+      "gender": "мн.",
+      "en": "parents"
+    },
+    {
+      "ru": "сын",
+      "ruPron": "신",
+      "ko": "son",
+      "gender": "м.р.",
+      "en": "son"
+    },
+    {
+      "ru": "дочь",
+      "ruPron": "도치",
+      "ko": "daughter",
+      "gender": "ж.р.",
+      "en": "daughter"
+    },
+    {
+      "ru": "брат",
+      "ruPron": "브라트",
+      "ko": "brother",
+      "gender": "м.р.",
+      "en": "brother"
+    },
+    {
+      "ru": "сестра",
+      "ruPron": "시스트라",
+      "ko": "sister",
+      "gender": "ж.р.",
+      "en": "sister"
+    },
+    {
+      "ru": "дедушка",
+      "ruPron": "데두슈카",
+      "ko": "grandfather",
+      "gender": "м.р.",
+      "en": "grandfather"
+    },
+    {
+      "ru": "бабушка",
+      "ruPron": "바부슈카",
+      "ko": "grandmother",
+      "gender": "ж.р.",
+      "en": "grandmother"
+    },
+    {
+      "ru": "муж",
+      "ruPron": "무시",
+      "ko": "husband",
+      "gender": "м.р.",
+      "en": "husband"
+    },
+    {
+      "ru": "жена",
+      "ruPron": "제나",
+      "ko": "wife",
+      "gender": "ж.р.",
+      "en": "wife"
+    },
+    {
+      "ru": "дядя",
+      "ruPron": "댜댜",
+      "ko": "uncle",
+      "gender": "м.р.",
+      "en": "uncle"
+    },
+    {
+      "ru": "тётя",
+      "ruPron": "툐탸",
+      "ko": "aunt",
+      "gender": "ж.р.",
+      "en": "aunt"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-ru",
+        "labelKo": "English → Russian",
+        "labelEn": "English → Russian",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ru-to-ko",
+        "labelKo": "Russian → English",
+        "labelEn": "Russian → English",
+        "promptColumns": [
+          "ru"
+        ],
+        "answerColumn": "ko"
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": "08-byt",
+  "lesson": 8,
+  "category": "verbs",
+  "titleKo": "Verb быть (past · future)",
+  "titleEn": "Verb быть (past · future)",
+  "titleRu": "Глагол быть",
+  "note": "Present tense is usually omitted (or есть). Past agrees in gender/number; future conjugates быть.",
+  "columns": [
+    {
+      "id": "person",
+      "labelKo": "Person / form",
+      "labelEn": "Person / form",
+      "labelRu": "форма",
+      "quizable": false
+    },
+    {
+      "id": "past",
+      "labelKo": "Past",
+      "labelEn": "Past",
+      "labelRu": "прош."
+    },
+    {
+      "id": "future",
+      "labelKo": "Future",
+      "labelEn": "Future",
+      "labelRu": "буд."
+    },
+    {
+      "id": "ko",
+      "labelKo": "Note",
+      "labelEn": "Note",
+      "labelRu": "заметка"
+    }
+  ],
+  "rows": [
+    {
+      "person": "я (m.)",
+      "past": "был",
+      "pastPron": "빌",
+      "future": "буду",
+      "futurePron": "부두",
+      "ko": "I was / will be",
+      "en": "I was / will be"
+    },
+    {
+      "person": "я (f.)",
+      "past": "была",
+      "pastPron": "빌라",
+      "future": "буду",
+      "futurePron": "부두",
+      "ko": "past for female speaker",
+      "en": "past for female speaker"
+    },
+    {
+      "person": "ты (m.)",
+      "past": "был",
+      "pastPron": "빌",
+      "future": "будешь",
+      "futurePron": "부데시",
+      "ko": "",
+      "en": ""
+    },
+    {
+      "person": "ты (f.)",
+      "past": "была",
+      "pastPron": "빌라",
+      "future": "будешь",
+      "futurePron": "부데시",
+      "ko": "",
+      "en": ""
+    },
+    {
+      "person": "он",
+      "past": "был",
+      "pastPron": "빌",
+      "future": "будет",
+      "futurePron": "부젯",
+      "ko": "",
+      "en": ""
+    },
+    {
+      "person": "она",
+      "past": "была",
+      "pastPron": "빌라",
+      "future": "будет",
+      "futurePron": "부젯",
+      "ko": "",
+      "en": ""
+    },
+    {
+      "person": "оно",
+      "past": "было",
+      "pastPron": "빌로",
+      "future": "будет",
+      "futurePron": "부젯",
+      "ko": "neuter",
+      "en": "neuter"
+    },
+    {
+      "person": "мы",
+      "past": "были",
+      "pastPron": "빌리",
+      "future": "будем",
+      "futurePron": "부뎀",
+      "ko": "",
+      "en": ""
+    },
+    {
+      "person": "вы",
+      "past": "были",
+      "pastPron": "빌리",
+      "future": "будете",
+      "futurePron": "부데쩨",
+      "ko": "",
+      "en": ""
+    },
+    {
+      "person": "они",
+      "past": "были",
+      "pastPron": "빌리",
+      "future": "будут",
+      "futurePron": "부두트",
+      "ko": "",
+      "en": ""
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "person-to-future",
+        "labelKo": "Person → future",
+        "labelEn": "Person → future",
+        "promptColumns": [
+          "person"
+        ],
+        "answerColumn": "future"
+      },
+      {
+        "id": "person-to-past",
+        "labelKo": "Person → past",
+        "labelEn": "Person → past",
+        "promptColumns": [
+          "person"
+        ],
+        "answerColumn": "past"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "19-likes",
+  "lesson": 19,
+  "category": "vocab",
+  "titleKo": "Likes and dislikes",
+  "titleEn": "Likes and dislikes",
+  "titleRu": "Нравиться / любить",
+  "note": "Нравиться feels like a dative subject: Мне нравится…. любить takes a normal subject.",
+  "columns": [
+    {
+      "id": "ru",
+      "labelKo": "Russian",
+      "labelEn": "Russian",
+      "labelRu": "рус."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "ru": "Мне нравится …",
+      "ruPron": "므네 느라비차 …",
+      "ko": "I like …",
+      "en": "I like …"
+    },
+    {
+      "ru": "Мне не нравится …",
+      "ruPron": "므네 니 느라비차 …",
+      "ko": "I don't like …",
+      "en": "I don't like …"
+    },
+    {
+      "ru": "Я люблю …",
+      "ruPron": "야 류블류 …",
+      "ko": "I love / like …",
+      "en": "I love / like …"
+    },
+    {
+      "ru": "Я не люблю …",
+      "ruPron": "야 니 류블류 …",
+      "ko": "I don't like …",
+      "en": "I don't like …"
+    },
+    {
+      "ru": "Я ненавижу …",
+      "ruPron": "야 니나비주 …",
+      "ko": "I hate …",
+      "en": "I hate …"
+    },
+    {
+      "ru": "мой любимый …",
+      "ruPron": "모이 류비미 …",
+      "ko": "my favorite … (m.)",
+      "en": "my favorite … (m.)"
+    },
+    {
+      "ru": "моя любимая …",
+      "ruPron": "마야 류비마야 …",
+      "ko": "my favorite … (f.)",
+      "en": "my favorite … (f.)"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-ru",
+        "labelKo": "English → Russian",
+        "labelEn": "English → Russian",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "ru"
+      }
+    ]
+  }
+}

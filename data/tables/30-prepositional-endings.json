@@ -1,0 +1,108 @@
+{
+  "id": "30-prepositional-endings",
+  "lesson": 30,
+  "category": "cases",
+  "titleKo": "Prepositional (предложный) basic endings",
+  "titleEn": "Prepositional (предложный) basic endings",
+  "titleRu": "Предложный падеж",
+  "note": "Only used with prepositions such as в, на, о. Meaning: «in/on/about …».",
+  "columns": [
+    {
+      "id": "gender",
+      "labelKo": "Gender / number",
+      "labelEn": "Gender / number",
+      "labelRu": "род",
+      "quizable": false
+    },
+    {
+      "id": "nom",
+      "labelKo": "Nominative ending",
+      "labelEn": "Nominative ending",
+      "labelRu": "им."
+    },
+    {
+      "id": "prep",
+      "labelKo": "Prepositional ending",
+      "labelEn": "Prepositional ending",
+      "labelRu": "пр."
+    },
+    {
+      "id": "exampleNom",
+      "labelKo": "Nominative example",
+      "labelEn": "Nominative example",
+      "labelRu": "им. пр."
+    },
+    {
+      "id": "examplePrep",
+      "labelKo": "Prepositional example",
+      "labelEn": "Prepositional example",
+      "labelRu": "пр. пр."
+    },
+    {
+      "id": "ko",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "gender": "masculine",
+      "nom": "consonant / -й / -ь",
+      "prep": "-е / -е / -и",
+      "exampleNom": "стол / музей / день",
+      "exampleNomPron": "스톨 / 무제이 / 젠",
+      "examplePrep": "столе / музее / дне",
+      "examplePrepPron": "스톨레 / 무제예 / 드네",
+      "ko": "table / museum / day",
+      "en": "table / museum / day"
+    },
+    {
+      "gender": "feminine",
+      "nom": "-а / -я",
+      "prep": "-е / -и",
+      "exampleNom": "книга / Россия",
+      "exampleNomPron": "크니가 / 라시야",
+      "examplePrep": "книге / России",
+      "examplePrepPron": "크니게 / 라시이",
+      "ko": "book / Russia",
+      "en": "book / Russia"
+    },
+    {
+      "gender": "neuter",
+      "nom": "-о / -е",
+      "prep": "-е",
+      "exampleNom": "окно / море",
+      "exampleNomPron": "아크노 / 모레",
+      "examplePrep": "окне / море",
+      "examplePrepPron": "아크네 / 모레",
+      "ko": "window / sea",
+      "en": "window / sea"
+    },
+    {
+      "gender": "plural",
+      "nom": "various",
+      "prep": "-ах / -ях",
+      "exampleNom": "столы / книги",
+      "exampleNomPron": "스톨리 / 크니기",
+      "examplePrep": "столах / книгах",
+      "examplePrepPron": "스톨라흐 / 크니가흐",
+      "ko": "tables / books",
+      "en": "tables / books"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "nom-to-prep",
+        "labelKo": "Nominative → prepositional",
+        "labelEn": "Nominative → prepositional",
+        "promptColumns": [
+          "exampleNom",
+          "ko"
+        ],
+        "answerColumn": "examplePrep"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "27-dative-endings",
+  "lesson": 27,
+  "category": "cases",
+  "titleKo": "Dative (дательный) basic endings",
+  "titleEn": "Dative (дательный) basic endings",
+  "titleRu": "Дательный падеж",
+  "note": "Indirect object «to/for …». Мне нравится, дать другу, etc.",
+  "columns": [
+    {
+      "id": "gender",
+      "labelKo": "Gender / number",
+      "labelEn": "Gender / number",
+      "labelRu": "род",
+      "quizable": false
+    },
+    {
+      "id": "nom",
+      "labelKo": "Nominative ending",
+      "labelEn": "Nominative ending",
+      "labelRu": "им."
+    },
+    {
+      "id": "dat",
+      "labelKo": "Dative ending",
+      "labelEn": "Dative ending",
+      "labelRu": "дат."
+    },
+    {
+      "id": "exampleNom",
+      "labelKo": "Nominative example",
+      "labelEn": "Nominative example",
+      "labelRu": "им. пр."
+    },
+    {
+      "id": "exampleDat",
+      "labelKo": "Dative example",
+      "labelEn": "Dative example",
+      "labelRu": "дат. пр."
+    },
+    {
+      "id": "ko",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "gender": "masculine",
+      "nom": "consonant / -й / -ь",
+      "dat": "-у / -ю",
+      "exampleNom": "друг / музей",
+      "exampleNomPron": "드룩 / 무제이",
+      "exampleDat": "другу / музею",
+      "exampleDatPron": "드루구 / 무제유",
+      "ko": "friend / museum",
+      "en": "friend / museum"
+    },
+    {
+      "gender": "feminine",
+      "nom": "-а / -я",
+      "dat": "-е / -и",
+      "exampleNom": "мама / неделя",
+      "exampleNomPron": "마마 / 니델랴",
+      "exampleDat": "маме / неделе",
+      "exampleDatPron": "마메 / 니델레",
+      "ko": "mom / week",
+      "en": "mom / week"
+    },
+    {
+      "gender": "neuter",
+      "nom": "-о / -е",
+      "dat": "-у / -ю",
+      "exampleNom": "окно / море",
+      "exampleNomPron": "아크노 / 모레",
+      "exampleDat": "окну / морю",
+      "exampleDatPron": "아크누 / 모류",
+      "ko": "window / sea",
+      "en": "window / sea"
+    },
+    {
+      "gender": "plural",
+      "nom": "various",
+      "dat": "-ам / -ям",
+      "exampleNom": "друзья / книги",
+      "exampleNomPron": "드루쟈 / 크니기",
+      "exampleDat": "друзьям / книгам",
+      "exampleDatPron": "드루자암 / 크니감",
+      "ko": "friends / books",
+      "en": "friends / books"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "nom-to-dat",
+        "labelKo": "Nominative → dative",
+        "labelEn": "Nominative → dative",
+        "promptColumns": [
+          "exampleNom",
+          "ko"
+        ],
+        "answerColumn": "exampleDat"
+      }
+    ]
+  }
+}

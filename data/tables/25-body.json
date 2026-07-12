@@ -1,0 +1,148 @@
+{
+  "id": "25-body",
+  "lesson": 25,
+  "category": "vocab",
+  "titleKo": "Body · pharmacy",
+  "titleEn": "Body · pharmacy",
+  "titleRu": "Тело и аптека",
+  "columns": [
+    {
+      "id": "ru",
+      "labelKo": "Russian",
+      "labelEn": "Russian",
+      "labelRu": "рус."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "ru": "голова",
+      "ruPron": "갈라바",
+      "ko": "head",
+      "en": "head"
+    },
+    {
+      "ru": "глаз / глаза",
+      "ruPron": "글라스 / 글라자",
+      "ko": "eye / eyes",
+      "en": "eye / eyes"
+    },
+    {
+      "ru": "ухо / уши",
+      "ruPron": "우하 / 우시",
+      "ko": "ear / ears",
+      "en": "ear / ears"
+    },
+    {
+      "ru": "нос",
+      "ruPron": "노스",
+      "ko": "nose",
+      "en": "nose"
+    },
+    {
+      "ru": "рот",
+      "ruPron": "로트",
+      "ko": "mouth",
+      "en": "mouth"
+    },
+    {
+      "ru": "зуб / зубы",
+      "ruPron": "줍 / 주비",
+      "ko": "tooth / teeth",
+      "en": "tooth / teeth"
+    },
+    {
+      "ru": "рука / руки",
+      "ruPron": "루카 / 루키",
+      "ko": "hand / arm",
+      "en": "hand / arm"
+    },
+    {
+      "ru": "нога / ноги",
+      "ruPron": "나가 / 노기",
+      "ko": "leg / foot",
+      "en": "leg / foot"
+    },
+    {
+      "ru": "живот",
+      "ruPron": "지보트",
+      "ko": "stomach / belly",
+      "en": "stomach / belly"
+    },
+    {
+      "ru": "спина",
+      "ruPron": "스피나",
+      "ko": "back",
+      "en": "back"
+    },
+    {
+      "ru": "горло",
+      "ruPron": "고를로",
+      "ko": "throat",
+      "en": "throat"
+    },
+    {
+      "ru": "температура",
+      "ruPron": "템페라투라",
+      "ko": "fever / temperature",
+      "en": "fever / temperature"
+    },
+    {
+      "ru": "аптека",
+      "ruPron": "아프테카",
+      "ko": "pharmacy",
+      "en": "pharmacy"
+    },
+    {
+      "ru": "лекарство",
+      "ruPron": "레카르스트바",
+      "ko": "medicine",
+      "en": "medicine"
+    },
+    {
+      "ru": "болит",
+      "ruPron": "발릿",
+      "ko": "hurts",
+      "en": "hurts"
+    },
+    {
+      "ru": "У меня болит голова.",
+      "ruPron": "우 미냐 발릿 갈라바.",
+      "ko": "I have a headache.",
+      "en": "I have a headache."
+    },
+    {
+      "ru": "У меня болит горло.",
+      "ruPron": "우 미냐 발릿 고를로.",
+      "ko": "I have a sore throat.",
+      "en": "I have a sore throat."
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-ru",
+        "labelKo": "English → Russian",
+        "labelEn": "English → Russian",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ru-to-ko",
+        "labelKo": "Russian → English",
+        "labelEn": "Russian → English",
+        "promptColumns": [
+          "ru"
+        ],
+        "answerColumn": "ko"
+      }
+    ]
+  }
+}

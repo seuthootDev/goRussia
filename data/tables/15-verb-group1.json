@@ -1,0 +1,92 @@
+{
+  "id": "15-verb-group1",
+  "lesson": 15,
+  "category": "verbs",
+  "titleKo": "1st conjugation example: читать",
+  "titleEn": "1st conjugation example: читать",
+  "titleRu": "I спряжение — читать",
+  "note": "1st conjugation: -у/-ю, -ешь, -ет, -ем, -ете, -ут/-ют",
+  "columns": [
+    {
+      "id": "person",
+      "labelKo": "Person",
+      "labelEn": "Person",
+      "labelRu": "лицо"
+    },
+    {
+      "id": "form",
+      "labelKo": "Present",
+      "labelEn": "Present",
+      "labelRu": "наст."
+    },
+    {
+      "id": "ko",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "person": "я",
+      "personPron": "야",
+      "form": "читаю",
+      "formPron": "치타유",
+      "ko": "I read",
+      "en": "I read"
+    },
+    {
+      "person": "ты",
+      "personPron": "티",
+      "form": "читаешь",
+      "formPron": "치타예시",
+      "ko": "you read",
+      "en": "you read"
+    },
+    {
+      "person": "он / она / оно",
+      "personPron": "온 / 아나 / 아노",
+      "form": "читает",
+      "formPron": "치타예트",
+      "ko": "he/she/it reads",
+      "en": "he/she/it reads"
+    },
+    {
+      "person": "мы",
+      "personPron": "미",
+      "form": "читаем",
+      "formPron": "치타옘",
+      "ko": "we read",
+      "en": "we read"
+    },
+    {
+      "person": "вы",
+      "personPron": "비",
+      "form": "читаете",
+      "formPron": "치타예떼",
+      "ko": "you (pl./polite) read",
+      "en": "you (pl./polite) read"
+    },
+    {
+      "person": "они",
+      "personPron": "아니",
+      "form": "читают",
+      "formPron": "치타윳",
+      "ko": "they read",
+      "en": "they read"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "person-to-form",
+        "labelKo": "Person → conjugated form",
+        "labelEn": "Person → conjugated form",
+        "promptColumns": [
+          "person"
+        ],
+        "answerColumn": "form"
+      }
+    ]
+  }
+}

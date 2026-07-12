@@ -1,0 +1,133 @@
+{
+  "id": "04-noun-plural",
+  "lesson": 4,
+  "category": "grammar",
+  "titleKo": "Basic plural noun endings",
+  "titleEn": "Basic plural noun endings",
+  "titleRu": "Множественное число",
+  "note": "Regular patterns only. Irregulars (человек→люди, ребёнок→дети) are separate.",
+  "columns": [
+    {
+      "id": "gender",
+      "labelKo": "Gender",
+      "labelEn": "Gender",
+      "labelRu": "род",
+      "quizable": false
+    },
+    {
+      "id": "singular",
+      "labelKo": "Singular ending",
+      "labelEn": "Singular ending",
+      "labelRu": "ед."
+    },
+    {
+      "id": "plural",
+      "labelKo": "Plural ending",
+      "labelEn": "Plural ending",
+      "labelRu": "мн."
+    },
+    {
+      "id": "exampleSg",
+      "labelKo": "Singular example",
+      "labelEn": "Singular example",
+      "labelRu": "ед. пример"
+    },
+    {
+      "id": "examplePl",
+      "labelKo": "Plural example",
+      "labelEn": "Plural example",
+      "labelRu": "мн. пример"
+    },
+    {
+      "id": "meaning",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "gender": "masculine",
+      "singular": "consonant",
+      "plural": "-ы / -и",
+      "exampleSg": "студент",
+      "exampleSgPron": "스투덴트",
+      "examplePl": "студенты",
+      "examplePlPron": "스투덴티",
+      "meaning": "student"
+    },
+    {
+      "gender": "masculine",
+      "singular": "-й",
+      "plural": "-и",
+      "exampleSg": "музей",
+      "exampleSgPron": "무제이",
+      "examplePl": "музеи",
+      "examplePlPron": "무제이",
+      "meaning": "museum"
+    },
+    {
+      "gender": "feminine",
+      "singular": "-а",
+      "plural": "-ы",
+      "exampleSg": "книга",
+      "exampleSgPron": "크니가",
+      "examplePl": "книги",
+      "examplePlPron": "크니기",
+      "meaning": "book"
+    },
+    {
+      "gender": "feminine",
+      "singular": "-я",
+      "plural": "-и",
+      "exampleSg": "неделя",
+      "exampleSgPron": "니델랴",
+      "examplePl": "недели",
+      "examplePlPron": "니델리",
+      "meaning": "week"
+    },
+    {
+      "gender": "neuter",
+      "singular": "-о",
+      "plural": "-а",
+      "exampleSg": "окно",
+      "exampleSgPron": "아크노",
+      "examplePl": "окна",
+      "examplePlPron": "아크나",
+      "meaning": "window"
+    },
+    {
+      "gender": "neuter",
+      "singular": "-е",
+      "plural": "-я",
+      "exampleSg": "поле",
+      "exampleSgPron": "폴레",
+      "examplePl": "поля",
+      "examplePlPron": "폴랴",
+      "meaning": "field"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "sg-to-pl",
+        "labelKo": "Singular → plural",
+        "labelEn": "Singular → plural",
+        "promptColumns": [
+          "exampleSg",
+          "meaning"
+        ],
+        "answerColumn": "examplePl"
+      },
+      {
+        "id": "pl-to-sg",
+        "labelKo": "Plural → singular",
+        "labelEn": "Plural → singular",
+        "promptColumns": [
+          "examplePl"
+        ],
+        "answerColumn": "exampleSg"
+      }
+    ]
+  }
+}

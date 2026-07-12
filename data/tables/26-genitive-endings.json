@@ -1,0 +1,119 @@
+{
+  "id": "26-genitive-endings",
+  "lesson": 26,
+  "category": "cases",
+  "titleKo": "Genitive (родительный) basic endings",
+  "titleEn": "Genitive (родительный) basic endings",
+  "titleRu": "Родительный падеж",
+  "note": "Often used for negation, possession, quantity, and after нет. у меня нет … + genitive.",
+  "columns": [
+    {
+      "id": "gender",
+      "labelKo": "Gender / number",
+      "labelEn": "Gender / number",
+      "labelRu": "род",
+      "quizable": false
+    },
+    {
+      "id": "nom",
+      "labelKo": "Nominative ending",
+      "labelEn": "Nominative ending",
+      "labelRu": "им."
+    },
+    {
+      "id": "gen",
+      "labelKo": "Genitive ending",
+      "labelEn": "Genitive ending",
+      "labelRu": "род."
+    },
+    {
+      "id": "exampleNom",
+      "labelKo": "Nominative example",
+      "labelEn": "Nominative example",
+      "labelRu": "им. пр."
+    },
+    {
+      "id": "exampleGen",
+      "labelKo": "Genitive example",
+      "labelEn": "Genitive example",
+      "labelRu": "род. пр."
+    },
+    {
+      "id": "ko",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "gender": "masculine",
+      "nom": "consonant",
+      "gen": "-а / -я",
+      "exampleNom": "стол",
+      "exampleNomPron": "스톨",
+      "exampleGen": "стола",
+      "exampleGenPron": "스톨라",
+      "ko": "table",
+      "en": "table"
+    },
+    {
+      "gender": "masculine",
+      "nom": "-й / -ь",
+      "gen": "-я / -я",
+      "exampleNom": "музей / день",
+      "exampleNomPron": "무제이 / 젠",
+      "exampleGen": "музея / дня",
+      "exampleGenPron": "무제야 / 드냐",
+      "ko": "museum / day",
+      "en": "museum / day"
+    },
+    {
+      "gender": "feminine",
+      "nom": "-а / -я",
+      "gen": "-ы / -и",
+      "exampleNom": "книга / неделя",
+      "exampleNomPron": "크니가 / 니델랴",
+      "exampleGen": "книги / недели",
+      "exampleGenPron": "크니기 / 니델리",
+      "ko": "book / week",
+      "en": "book / week"
+    },
+    {
+      "gender": "neuter",
+      "nom": "-о / -е",
+      "gen": "-а / -я",
+      "exampleNom": "окно / море",
+      "exampleNomPron": "아크노 / 모레",
+      "exampleGen": "окна / моря",
+      "exampleGenPron": "아크나 / 모랴",
+      "ko": "window / sea",
+      "en": "window / sea"
+    },
+    {
+      "gender": "plural",
+      "nom": "various",
+      "gen": "-ов/-ев/-ей / ∅",
+      "exampleNom": "студенты / книги",
+      "exampleNomPron": "스투덴티 / 크니기",
+      "exampleGen": "студентов / книг",
+      "exampleGenPron": "스투덴토프 / 크니크",
+      "ko": "students / books",
+      "en": "students / books"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "nom-to-gen",
+        "labelKo": "Nominative → genitive",
+        "labelEn": "Nominative → genitive",
+        "promptColumns": [
+          "exampleNom",
+          "ko"
+        ],
+        "answerColumn": "exampleGen"
+      }
+    ]
+  }
+}

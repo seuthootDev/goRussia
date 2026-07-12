@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="ŒDÐ¸ ð) ÁÕ">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE566"/>
+      <stop offset="55%" stop-color="#FFD100"/>
+      <stop offset="100%" stop-color="#E6A800"/>
+    </linearGradient>
+  </defs>
+  <!-- star -->
+  <path fill="url(#gold)" d="M60 10l7.4 22.8H92l-19.8 14.4 7.6 22.8L60 55.6 40.2 70l7.6-22.8L28 32.8h24.6z"/>
+  <!-- sickle -->
+  <path fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"
+        d="M78 48c-2 22-20 36-38 36-8 0-16-2-22-7 14 2 30-6 38-22 4-8 6-16 6-22"/>
+  <circle cx="78" cy="46" r="4.2" fill="url(#gold)"/>
+  <!-- hammer -->
+  <g transform="rotate(-38 52 70)">
+    <rect x="48" y="42" width="8" height="46" rx="2" fill="url(#gold)"/>
+    <path fill="url(#gold)" d="M40 40h24l4 10H36z"/>
+  </g>
+</svg>

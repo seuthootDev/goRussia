@@ -1,0 +1,210 @@
+{
+  "id": "13-ordinals-1-10",
+  "lesson": 13,
+  "category": "numbers",
+  "titleKo": "Ordinal numbers 1–10",
+  "titleEn": "Ordinal numbers 1–10",
+  "titleRu": "Порядковые числительные 1–10",
+  "note": "Decline like adjectives for gender, number, and case. Dates often use neuter / genitive forms.",
+  "columns": [
+    {
+      "id": "n",
+      "labelKo": "Number",
+      "labelEn": "Number",
+      "labelRu": "№"
+    },
+    {
+      "id": "m",
+      "labelKo": "Masculine",
+      "labelEn": "Masculine",
+      "labelRu": "м.р."
+    },
+    {
+      "id": "f",
+      "labelKo": "Feminine",
+      "labelEn": "Feminine",
+      "labelRu": "ж.р."
+    },
+    {
+      "id": "neuter",
+      "labelKo": "Neuter",
+      "labelEn": "Neuter",
+      "labelRu": "ср.р."
+    },
+    {
+      "id": "pl",
+      "labelKo": "Plural",
+      "labelEn": "Plural",
+      "labelRu": "мн."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "n": "1",
+      "m": "первый",
+      "mPron": "페르비",
+      "f": "первая",
+      "fPron": "페르바야",
+      "neuter": "первое",
+      "neuterPron": "페르보예",
+      "pl": "первые",
+      "plPron": "페르비예",
+      "ko": "first",
+      "en": "first"
+    },
+    {
+      "n": "2",
+      "m": "второй",
+      "mPron": "프토로이",
+      "f": "вторая",
+      "fPron": "프타라야",
+      "neuter": "второе",
+      "neuterPron": "프타로예",
+      "pl": "вторые",
+      "plPron": "프토리예",
+      "ko": "second",
+      "en": "second"
+    },
+    {
+      "n": "3",
+      "m": "третий",
+      "mPron": "트레티",
+      "f": "третья",
+      "fPron": "트레탸",
+      "neuter": "третье",
+      "neuterPron": "트레티예",
+      "pl": "третьи",
+      "plPron": "트레티",
+      "ko": "third",
+      "en": "third"
+    },
+    {
+      "n": "4",
+      "m": "четвёртый",
+      "mPron": "칫볃티",
+      "f": "четвёртая",
+      "fPron": "칫볃타야",
+      "neuter": "четвёртое",
+      "neuterPron": "칫볃토예",
+      "pl": "четвёртые",
+      "plPron": "칫볃티예",
+      "ko": "fourth",
+      "en": "fourth"
+    },
+    {
+      "n": "5",
+      "m": "пятый",
+      "mPron": "퍄티",
+      "f": "пятая",
+      "fPron": "퍄타야",
+      "neuter": "пятое",
+      "neuterPron": "퍄토예",
+      "pl": "пятые",
+      "plPron": "퍄티예",
+      "ko": "fifth",
+      "en": "fifth"
+    },
+    {
+      "n": "6",
+      "m": "шестой",
+      "mPron": "셰스토이",
+      "f": "шестая",
+      "fPron": "셰스타야",
+      "neuter": "шестое",
+      "neuterPron": "셰스토예",
+      "pl": "шестые",
+      "plPron": "셰스티예",
+      "ko": "sixth",
+      "en": "sixth"
+    },
+    {
+      "n": "7",
+      "m": "седьмой",
+      "mPron": "시드모이",
+      "f": "седьмая",
+      "fPron": "시드마야",
+      "neuter": "седьмое",
+      "neuterPron": "시드모예",
+      "pl": "седьмые",
+      "plPron": "시드미예",
+      "ko": "seventh",
+      "en": "seventh"
+    },
+    {
+      "n": "8",
+      "m": "восьмой",
+      "mPron": "보스모이",
+      "f": "восьмая",
+      "fPron": "보스마야",
+      "neuter": "восьмое",
+      "neuterPron": "보스모예",
+      "pl": "восьмые",
+      "plPron": "보스미예",
+      "ko": "eighth",
+      "en": "eighth"
+    },
+    {
+      "n": "9",
+      "m": "девятый",
+      "mPron": "데뱌티",
+      "f": "девятая",
+      "fPron": "데뱌타야",
+      "neuter": "девятое",
+      "neuterPron": "데뱌토예",
+      "pl": "девятые",
+      "plPron": "데뱌티예",
+      "ko": "ninth",
+      "en": "ninth"
+    },
+    {
+      "n": "10",
+      "m": "десятый",
+      "mPron": "데샤티",
+      "f": "десятая",
+      "fPron": "데샤타야",
+      "neuter": "десятое",
+      "neuterPron": "데샤토예",
+      "pl": "десятые",
+      "plPron": "데샤티예",
+      "ko": "tenth",
+      "en": "tenth"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "n-to-m",
+        "labelKo": "Number → masculine",
+        "labelEn": "Number → masculine",
+        "promptColumns": [
+          "n"
+        ],
+        "answerColumn": "m"
+      },
+      {
+        "id": "n-to-f",
+        "labelKo": "Number → feminine",
+        "labelEn": "Number → feminine",
+        "promptColumns": [
+          "n"
+        ],
+        "answerColumn": "f"
+      },
+      {
+        "id": "n-to-neuter",
+        "labelKo": "Number → neuter",
+        "labelEn": "Number → neuter",
+        "promptColumns": [
+          "n"
+        ],
+        "answerColumn": "neuter"
+      }
+    ]
+  }
+}

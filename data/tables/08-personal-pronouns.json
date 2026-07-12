@@ -1,0 +1,110 @@
+{
+  "id": "08-personal-pronouns",
+  "lesson": 8,
+  "category": "pronouns",
+  "titleKo": "Personal pronouns (nominative)",
+  "titleEn": "Personal pronouns (nominative)",
+  "titleRu": "Личные местоимения (им. п.)",
+  "columns": [
+    {
+      "id": "person",
+      "labelKo": "Person",
+      "labelEn": "Person",
+      "labelRu": "лицо",
+      "quizable": false
+    },
+    {
+      "id": "ru",
+      "labelKo": "Russian",
+      "labelEn": "Russian",
+      "labelRu": "рус."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "person": "1sg",
+      "ru": "я",
+      "ruPron": "야",
+      "ko": "I",
+      "en": "I"
+    },
+    {
+      "person": "2sg",
+      "ru": "ты",
+      "ruPron": "티",
+      "ko": "you (familiar)",
+      "en": "you (familiar)"
+    },
+    {
+      "person": "3sg m.",
+      "ru": "он",
+      "ruPron": "온",
+      "ko": "he",
+      "en": "he"
+    },
+    {
+      "person": "3sg f.",
+      "ru": "она",
+      "ruPron": "아나",
+      "ko": "she",
+      "en": "she"
+    },
+    {
+      "person": "3sg n.",
+      "ru": "оно",
+      "ruPron": "아노",
+      "ko": "it",
+      "en": "it"
+    },
+    {
+      "person": "1pl",
+      "ru": "мы",
+      "ruPron": "미",
+      "ko": "we",
+      "en": "we"
+    },
+    {
+      "person": "2pl",
+      "ru": "вы",
+      "ruPron": "비",
+      "ko": "you (plural / polite)",
+      "en": "you (plural / polite)"
+    },
+    {
+      "person": "3pl",
+      "ru": "они",
+      "ruPron": "아니",
+      "ko": "they",
+      "en": "they"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-ru",
+        "labelKo": "English → Russian",
+        "labelEn": "English → Russian",
+        "promptColumns": [
+          "ko",
+          "person"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ru-to-ko",
+        "labelKo": "Russian → English",
+        "labelEn": "Russian → English",
+        "promptColumns": [
+          "ru"
+        ],
+        "answerColumn": "ko"
+      }
+    ]
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "title": "goRussia",
+  "subtitle": "Russian tables · quizzes",
+  "version": 1,
+  "lessons": [
+    {
+      "n": 4,
+      "titleKo": "Noun gender and plurals",
+      "titleEn": "Noun gender and plurals"
+    },
+    {
+      "n": 5,
+      "titleKo": "Self-introduction, nationality and professions",
+      "titleEn": "Self-introduction, nationality and professions"
+    },
+    {
+      "n": 6,
+      "titleKo": "Adjectives",
+      "titleEn": "Adjectives"
+    },
+    {
+      "n": 7,
+      "titleKo": "Introducing family",
+      "titleEn": "Introducing family"
+    },
+    {
+      "n": 8,
+      "titleKo": "Personal pronouns and the verb быть",
+      "titleEn": "Personal pronouns and the verb быть"
+    },
+    {
+      "n": 9,
+      "titleKo": "Possessive pronouns and use of нет, не",
+      "titleEn": "Possessive pronouns and use of нет, не"
+    },
+    {
+      "n": 10,
+      "titleKo": "Weather and seasons",
+      "titleEn": "Weather and seasons"
+    },
+    {
+      "n": 11,
+      "titleKo": "Cardinal numbers and time",
+      "titleEn": "Cardinal numbers and time"
+    },
+    {
+      "n": 12,
+      "titleKo": "Time and age",
+      "titleEn": "Time and age"
+    },
+    {
+      "n": 13,
+      "titleKo": "Ordinal numbers and dates",
+      "titleEn": "Ordinal numbers and dates"
+    },
+    {
+      "n": 14,
+      "titleKo": "Dates and weekdays",
+      "titleEn": "Dates and weekdays"
+    },
+    {
+      "n": 15,
+      "titleKo": "Verb types and conjugation",
+      "titleEn": "Verb types and conjugation"
+    },
+    {
+      "n": 16,
+      "titleKo": "Transport",
+      "titleEn": "Transport"
+    },
+    {
+      "n": 17,
+      "titleKo": "Russian etiquette and culture",
+      "titleEn": "Russian etiquette and culture"
+    },
+    {
+      "n": 18,
+      "titleKo": "Past tense conjugation",
+      "titleEn": "Past tense conjugation"
+    },
+    {
+      "n": 19,
+      "titleKo": "Likes and dislikes",
+      "titleEn": "Likes and dislikes"
+    },
+    {
+      "n": 20,
+      "titleKo": "Future tense conjugation",
+      "titleEn": "Future tense conjugation"
+    },
+    {
+      "n": 21,
+      "titleKo": "A three-day schedule",
+      "titleEn": "A three-day schedule"
+    },
+    {
+      "n": 22,
+      "titleKo": "Leisure, hobbies, and vacation",
+      "titleEn": "Leisure, hobbies, and vacation"
+    },
+    {
+      "n": 23,
+      "titleKo": "Restaurant and food",
+      "titleEn": "Restaurant and food"
+    },
+    {
+      "n": 24,
+      "titleKo": "Shopping",
+      "titleEn": "Shopping"
+    },
+    {
+      "n": 25,
+      "titleKo": "Body and pharmacy",
+      "titleEn": "Body and pharmacy"
+    },
+    {
+      "n": 26,
+      "titleKo": "Genitive case",
+      "titleEn": "Genitive case"
+    },
+    {
+      "n": 27,
+      "titleKo": "Dative case",
+      "titleEn": "Dative case"
+    },
+    {
+      "n": 28,
+      "titleKo": "Accusative case",
+      "titleEn": "Accusative case"
+    },
+    {
+      "n": 29,
+      "titleKo": "Instrumental case",
+      "titleEn": "Instrumental case"
+    },
+    {
+      "n": 30,
+      "titleKo": "Prepositional case",
+      "titleEn": "Prepositional case"
+    }
+  ],
+  "tables": [
+    {
+      "id": "04-noun-gender",
+      "lesson": 4,
+      "file": "tables/04-noun-gender.json"
+    },
+    {
+      "id": "04-noun-plural",
+      "lesson": 4,
+      "file": "tables/04-noun-plural.json"
+    },
+    {
+      "id": "05-nationality",
+      "lesson": 5,
+      "file": "tables/05-nationality.json"
+    },
+    {
+      "id": "05-professions",
+      "lesson": 5,
+      "file": "tables/05-professions.json"
+    },
+    {
+      "id": "06-adjective-endings",
+      "lesson": 6,
+      "file": "tables/06-adjective-endings.json"
+    },
+    {
+      "id": "07-family",
+      "lesson": 7,
+      "file": "tables/07-family.json"
+    },
+    {
+      "id": "08-personal-pronouns",
+      "lesson": 8,
+      "file": "tables/08-personal-pronouns.json"
+    },
+    {
+      "id": "08-byt",
+      "lesson": 8,
+      "file": "tables/08-byt.json"
+    },
+    {
+      "id": "09-possessive-pronouns",
+      "lesson": 9,
+      "file": "tables/09-possessive-pronouns.json"
+    },
+    {
+      "id": "10-seasons",
+      "lesson": 10,
+      "file": "tables/10-seasons.json"
+    },
+    {
+      "id": "10-weather",
+      "lesson": 10,
+      "file": "tables/10-weather.json"
+    },
+    {
+      "id": "11-cardinals-1-20",
+      "lesson": 11,
+      "file": "tables/11-cardinals-1-20.json"
+    },
+    {
+      "id": "11-cardinals-tens",
+      "lesson": 11,
+      "file": "tables/11-cardinals-tens.json"
+    },
+    {
+      "id": "12-age-time-phrases",
+      "lesson": 12,
+      "file": "tables/12-age-time-phrases.json"
+    },
+    {
+      "id": "13-ordinals-1-10",
+      "lesson": 13,
+      "file": "tables/13-ordinals-1-10.json"
+    },
+    {
+      "id": "13-months",
+      "lesson": 13,
+      "file": "tables/13-months.json"
+    },
+    {
+      "id": "14-weekdays",
+      "lesson": 14,
+      "file": "tables/14-weekdays.json"
+    },
+    {
+      "id": "15-verb-group1",
+      "lesson": 15,
+      "file": "tables/15-verb-group1.json"
+    },
+    {
+      "id": "15-verb-group2",
+      "lesson": 15,
+      "file": "tables/15-verb-group2.json"
+    },
+    {
+      "id": "16-transport",
+      "lesson": 16,
+      "file": "tables/16-transport.json"
+    },
+    {
+      "id": "18-past-tense",
+      "lesson": 18,
+      "file": "tables/18-past-tense.json"
+    },
+    {
+      "id": "19-likes",
+      "lesson": 19,
+      "file": "tables/19-likes.json"
+    },
+    {
+      "id": "20-future-tense",
+      "lesson": 20,
+      "file": "tables/20-future-tense.json"
+    },
+    {
+      "id": "23-food",
+      "lesson": 23,
+      "file": "tables/23-food.json"
+    },
+    {
+      "id": "24-shopping",
+      "lesson": 24,
+      "file": "tables/24-shopping.json"
+    },
+    {
+      "id": "25-body",
+      "lesson": 25,
+      "file": "tables/25-body.json"
+    },
+    {
+      "id": "26-genitive-endings",
+      "lesson": 26,
+      "file": "tables/26-genitive-endings.json"
+    },
+    {
+      "id": "27-dative-endings",
+      "lesson": 27,
+      "file": "tables/27-dative-endings.json"
+    },
+    {
+      "id": "28-accusative-endings",
+      "lesson": 28,
+      "file": "tables/28-accusative-endings.json"
+    },
+    {
+      "id": "29-instrumental-endings",
+      "lesson": 29,
+      "file": "tables/29-instrumental-endings.json"
+    },
+    {
+      "id": "30-prepositional-endings",
+      "lesson": 30,
+      "file": "tables/30-prepositional-endings.json"
+    }
+  ]
+}

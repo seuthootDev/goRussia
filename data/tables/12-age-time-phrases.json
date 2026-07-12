@@ -1,0 +1,138 @@
+{
+  "id": "12-age-time-phrases",
+  "lesson": 12,
+  "category": "time",
+  "titleKo": "Basic age and time expressions",
+  "titleEn": "Basic age and time expressions",
+  "titleRu": "Возраст и время",
+  "note": "Age: Мне … лет/года/год. Time: Сейчас … часов.",
+  "columns": [
+    {
+      "id": "ru",
+      "labelKo": "Russian",
+      "labelEn": "Russian",
+      "labelRu": "рус."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    },
+    {
+      "id": "tip",
+      "labelKo": "Tip",
+      "labelEn": "Tip",
+      "labelRu": "совет",
+      "quizable": false
+    }
+  ],
+  "rows": [
+    {
+      "ru": "Сколько тебе лет?",
+      "ruPron": "스콜카 떼베 렛?",
+      "ko": "How old are you?",
+      "tip": "informal",
+      "en": "How old are you?"
+    },
+    {
+      "ru": "Сколько вам лет?",
+      "ruPron": "스콜카 밤 렛?",
+      "ko": "How old are you?",
+      "tip": "formal",
+      "en": "How old are you?"
+    },
+    {
+      "ru": "Мне 20 лет.",
+      "ruPron": "므네 드바차티 렛.",
+      "ko": "I am 20 years old.",
+      "tip": "5–20, 25–30… → лет",
+      "en": "I am 20 years old."
+    },
+    {
+      "ru": "Мне 21 год.",
+      "ruPron": "므네 드바차티 아딘 고트.",
+      "ko": "I am 21 years old.",
+      "tip": "1, 21, 31… → год",
+      "en": "I am 21 years old."
+    },
+    {
+      "ru": "Мне 22 года.",
+      "ruPron": "므네 드바차티 드바 고다.",
+      "ko": "I am 22 years old.",
+      "tip": "2–4, 22–24… → года",
+      "en": "I am 22 years old."
+    },
+    {
+      "ru": "Который час?",
+      "ruPron": "카토리 차스?",
+      "ko": "What time is it?",
+      "tip": "",
+      "en": "What time is it?"
+    },
+    {
+      "ru": "Сейчас час.",
+      "ruPron": "시차스 차스.",
+      "ko": "It is 1 o'clock.",
+      "tip": "",
+      "en": "It is 1 o'clock."
+    },
+    {
+      "ru": "Сейчас два часа.",
+      "ruPron": "시차스 드바 차사.",
+      "ko": "It is 2 o'clock.",
+      "tip": "2–4 → часа",
+      "en": "It is 2 o'clock."
+    },
+    {
+      "ru": "Сейчас пять часов.",
+      "ruPron": "시차스 퍄티 차소프.",
+      "ko": "It is 5 o'clock.",
+      "tip": "5–20 → часов",
+      "en": "It is 5 o'clock."
+    },
+    {
+      "ru": "половина первого",
+      "ruPron": "팔라비나 페르보바",
+      "ko": "12:30",
+      "tip": "половина + genitive of next hour",
+      "en": "12:30"
+    },
+    {
+      "ru": "половина второго",
+      "ruPron": "팔라비나 프타로바",
+      "ko": "1:30",
+      "tip": "",
+      "en": "1:30"
+    },
+    {
+      "ru": "без четверти два",
+      "ruPron": "베스 치트베르티 드바",
+      "ko": "1:45",
+      "tip": "без + genitive",
+      "en": "1:45"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "ko-to-ru",
+        "labelKo": "English → Russian",
+        "labelEn": "English → Russian",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ru-to-ko",
+        "labelKo": "Russian → English",
+        "labelEn": "Russian → English",
+        "promptColumns": [
+          "ru"
+        ],
+        "answerColumn": "ko"
+      }
+    ]
+  }
+}

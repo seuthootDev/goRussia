@@ -1,0 +1,192 @@
+{
+  "id": "11-cardinals-1-20",
+  "lesson": 11,
+  "category": "numbers",
+  "titleKo": "Cardinal numbers 1–20",
+  "titleEn": "Cardinal numbers 1–20",
+  "titleRu": "Количественные числительные 1–20",
+  "columns": [
+    {
+      "id": "n",
+      "labelKo": "Number",
+      "labelEn": "Number",
+      "labelRu": "№"
+    },
+    {
+      "id": "ru",
+      "labelKo": "Russian",
+      "labelEn": "Russian",
+      "labelRu": "рус."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "n": "1",
+      "ru": "один / одна / одно",
+      "ruPron": "아딘 / 아드나 / 아드노",
+      "ko": "one",
+      "en": "one"
+    },
+    {
+      "n": "2",
+      "ru": "два / две",
+      "ruPron": "드바 / 드베",
+      "ko": "two",
+      "en": "two"
+    },
+    {
+      "n": "3",
+      "ru": "три",
+      "ruPron": "트리",
+      "ko": "three",
+      "en": "three"
+    },
+    {
+      "n": "4",
+      "ru": "четыре",
+      "ruPron": "치티레",
+      "ko": "four",
+      "en": "four"
+    },
+    {
+      "n": "5",
+      "ru": "пять",
+      "ruPron": "퍄티",
+      "ko": "five",
+      "en": "five"
+    },
+    {
+      "n": "6",
+      "ru": "шесть",
+      "ruPron": "셰스티",
+      "ko": "six",
+      "en": "six"
+    },
+    {
+      "n": "7",
+      "ru": "семь",
+      "ruPron": "셈",
+      "ko": "seven",
+      "en": "seven"
+    },
+    {
+      "n": "8",
+      "ru": "восемь",
+      "ruPron": "보셈",
+      "ko": "eight",
+      "en": "eight"
+    },
+    {
+      "n": "9",
+      "ru": "девять",
+      "ruPron": "데뱌티",
+      "ko": "nine",
+      "en": "nine"
+    },
+    {
+      "n": "10",
+      "ru": "десять",
+      "ruPron": "데샤티",
+      "ko": "ten",
+      "en": "ten"
+    },
+    {
+      "n": "11",
+      "ru": "одиннадцать",
+      "ruPron": "아디나차티",
+      "ko": "eleven",
+      "en": "eleven"
+    },
+    {
+      "n": "12",
+      "ru": "двенадцать",
+      "ruPron": "드베나차티",
+      "ko": "twelve",
+      "en": "twelve"
+    },
+    {
+      "n": "13",
+      "ru": "тринадцать",
+      "ruPron": "트리나차티",
+      "ko": "thirteen",
+      "en": "thirteen"
+    },
+    {
+      "n": "14",
+      "ru": "четырнадцать",
+      "ruPron": "치티르나차티",
+      "ko": "fourteen",
+      "en": "fourteen"
+    },
+    {
+      "n": "15",
+      "ru": "пятнадцать",
+      "ruPron": "퍄트나차티",
+      "ko": "fifteen",
+      "en": "fifteen"
+    },
+    {
+      "n": "16",
+      "ru": "шестнадцать",
+      "ruPron": "셰스트나차티",
+      "ko": "sixteen",
+      "en": "sixteen"
+    },
+    {
+      "n": "17",
+      "ru": "семнадцать",
+      "ruPron": "셈나차티",
+      "ko": "seventeen",
+      "en": "seventeen"
+    },
+    {
+      "n": "18",
+      "ru": "восемнадцать",
+      "ruPron": "바셈나차티",
+      "ko": "eighteen",
+      "en": "eighteen"
+    },
+    {
+      "n": "19",
+      "ru": "девятнадцать",
+      "ruPron": "데뱌트나차티",
+      "ko": "nineteen",
+      "en": "nineteen"
+    },
+    {
+      "n": "20",
+      "ru": "двадцать",
+      "ruPron": "드바차티",
+      "ko": "twenty",
+      "en": "twenty"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "n-to-ru",
+        "labelKo": "Number → Russian",
+        "labelEn": "Number → Russian",
+        "promptColumns": [
+          "n"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ru-to-n",
+        "labelKo": "Russian → number",
+        "labelEn": "Russian → number",
+        "promptColumns": [
+          "ru"
+        ],
+        "answerColumn": "n"
+      }
+    ]
+  }
+}

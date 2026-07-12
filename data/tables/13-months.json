@@ -1,0 +1,177 @@
+{
+  "id": "13-months",
+  "lesson": 13,
+  "category": "time",
+  "titleKo": "Months (1–12)",
+  "titleEn": "Months (1–12)",
+  "titleRu": "Месяцы",
+  "note": "«In January» is в январе (prepositional).",
+  "columns": [
+    {
+      "id": "n",
+      "labelKo": "Month",
+      "labelEn": "Month",
+      "labelRu": "№"
+    },
+    {
+      "id": "ru",
+      "labelKo": "Nominative",
+      "labelEn": "Nominative",
+      "labelRu": "им. п."
+    },
+    {
+      "id": "prep",
+      "labelKo": "Prepositional (в …)",
+      "labelEn": "Prepositional (в …)",
+      "labelRu": "пр. п."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "n": "1",
+      "ru": "январь",
+      "ruPron": "얀바리",
+      "prep": "в январе",
+      "prepPron": "브 얀바레",
+      "ko": "January",
+      "en": "January"
+    },
+    {
+      "n": "2",
+      "ru": "февраль",
+      "ruPron": "피브랄",
+      "prep": "в феврале",
+      "prepPron": "브 피브랄레",
+      "ko": "February",
+      "en": "February"
+    },
+    {
+      "n": "3",
+      "ru": "март",
+      "ruPron": "마트",
+      "prep": "в марте",
+      "prepPron": "브 마르테",
+      "ko": "March",
+      "en": "March"
+    },
+    {
+      "n": "4",
+      "ru": "апрель",
+      "ruPron": "아프레리",
+      "prep": "в апреле",
+      "prepPron": "브 아프레레",
+      "ko": "April",
+      "en": "April"
+    },
+    {
+      "n": "5",
+      "ru": "май",
+      "ruPron": "마이",
+      "prep": "в мае",
+      "prepPron": "브 마예",
+      "ko": "May",
+      "en": "May"
+    },
+    {
+      "n": "6",
+      "ru": "июнь",
+      "ruPron": "이윤",
+      "prep": "в июне",
+      "prepPron": "브 이유네",
+      "ko": "June",
+      "en": "June"
+    },
+    {
+      "n": "7",
+      "ru": "июль",
+      "ruPron": "이율",
+      "prep": "в июле",
+      "prepPron": "브 이율레",
+      "ko": "July",
+      "en": "July"
+    },
+    {
+      "n": "8",
+      "ru": "август",
+      "ruPron": "아프구스트",
+      "prep": "в августе",
+      "prepPron": "브 아프구스테",
+      "ko": "August",
+      "en": "August"
+    },
+    {
+      "n": "9",
+      "ru": "сентябрь",
+      "ruPron": "신탸브리",
+      "prep": "в сентябре",
+      "prepPron": "브 신탸브레",
+      "ko": "September",
+      "en": "September"
+    },
+    {
+      "n": "10",
+      "ru": "октябрь",
+      "ruPron": "아크탸브리",
+      "prep": "в октябре",
+      "prepPron": "브 아크탸브레",
+      "ko": "October",
+      "en": "October"
+    },
+    {
+      "n": "11",
+      "ru": "ноябрь",
+      "ruPron": "나야브리",
+      "prep": "в ноябре",
+      "prepPron": "브 나야브레",
+      "ko": "November",
+      "en": "November"
+    },
+    {
+      "n": "12",
+      "ru": "декабрь",
+      "ruPron": "디카브리",
+      "prep": "в декабре",
+      "prepPron": "브 디카브레",
+      "ko": "December",
+      "en": "December"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "n-to-ru",
+        "labelKo": "Month number → nominative",
+        "labelEn": "Month number → nominative",
+        "promptColumns": [
+          "n",
+          "ko"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ko-to-prep",
+        "labelKo": "English → «in …»",
+        "labelEn": "English → «in …»",
+        "promptColumns": [
+          "ko"
+        ],
+        "answerColumn": "prep"
+      },
+      {
+        "id": "ru-to-ko",
+        "labelKo": "Russian → English",
+        "labelEn": "Russian → English",
+        "promptColumns": [
+          "ru"
+        ],
+        "answerColumn": "ko"
+      }
+    ]
+  }
+}

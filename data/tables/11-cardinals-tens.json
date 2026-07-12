@@ -1,0 +1,143 @@
+{
+  "id": "11-cardinals-tens",
+  "lesson": 11,
+  "category": "numbers",
+  "titleKo": "Cardinal numbers 30–1000",
+  "titleEn": "Cardinal numbers 30–1000",
+  "titleRu": "Числительные 30–100",
+  "columns": [
+    {
+      "id": "n",
+      "labelKo": "Number",
+      "labelEn": "Number",
+      "labelRu": "№"
+    },
+    {
+      "id": "ru",
+      "labelKo": "Russian",
+      "labelEn": "Russian",
+      "labelRu": "рус."
+    },
+    {
+      "id": "ko",
+      "labelKo": "English",
+      "labelEn": "English",
+      "labelRu": "кор."
+    }
+  ],
+  "rows": [
+    {
+      "n": "30",
+      "ru": "тридцать",
+      "ruPron": "트리차티",
+      "ko": "thirty",
+      "en": "thirty"
+    },
+    {
+      "n": "40",
+      "ru": "сорок",
+      "ruPron": "소록",
+      "ko": "forty",
+      "en": "forty"
+    },
+    {
+      "n": "50",
+      "ru": "пятьдесят",
+      "ruPron": "퍄티데샷",
+      "ko": "fifty",
+      "en": "fifty"
+    },
+    {
+      "n": "60",
+      "ru": "шестьдесят",
+      "ruPron": "셰스티데샷",
+      "ko": "sixty",
+      "en": "sixty"
+    },
+    {
+      "n": "70",
+      "ru": "семьдесят",
+      "ruPron": "셈데샷",
+      "ko": "seventy",
+      "en": "seventy"
+    },
+    {
+      "n": "80",
+      "ru": "восемьдесят",
+      "ruPron": "보셈데샷",
+      "ko": "eighty",
+      "en": "eighty"
+    },
+    {
+      "n": "90",
+      "ru": "девяносто",
+      "ruPron": "데뱌노스토",
+      "ko": "ninety",
+      "en": "ninety"
+    },
+    {
+      "n": "100",
+      "ru": "сто",
+      "ruPron": "스토",
+      "ko": "one hundred",
+      "en": "one hundred"
+    },
+    {
+      "n": "200",
+      "ru": "двести",
+      "ruPron": "드베스티",
+      "ko": "two hundred",
+      "en": "two hundred"
+    },
+    {
+      "n": "300",
+      "ru": "триста",
+      "ruPron": "트리스타",
+      "ko": "three hundred",
+      "en": "three hundred"
+    },
+    {
+      "n": "400",
+      "ru": "четыреста",
+      "ruPron": "치티레스타",
+      "ko": "four hundred",
+      "en": "four hundred"
+    },
+    {
+      "n": "500",
+      "ru": "пятьсот",
+      "ruPron": "퍄티소트",
+      "ko": "five hundred",
+      "en": "five hundred"
+    },
+    {
+      "n": "1000",
+      "ru": "тысяча",
+      "ruPron": "티샤차",
+      "ko": "one thousand",
+      "en": "one thousand"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "n-to-ru",
+        "labelKo": "Number → Russian",
+        "labelEn": "Number → Russian",
+        "promptColumns": [
+          "n"
+        ],
+        "answerColumn": "ru"
+      },
+      {
+        "id": "ru-to-n",
+        "labelKo": "Russian → number",
+        "labelEn": "Russian → number",
+        "promptColumns": [
+          "ru"
+        ],
+        "answerColumn": "n"
+      }
+    ]
+  }
+}

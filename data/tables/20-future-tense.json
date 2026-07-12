@@ -1,0 +1,160 @@
+{
+  "id": "20-future-tense",
+  "lesson": 20,
+  "category": "verbs",
+  "titleKo": "Future tense (imperfective · perfective)",
+  "titleEn": "Future tense (imperfective · perfective)",
+  "titleRu": "Будущее время",
+  "note": "Imperfective: future of быть + infinitive. Perfective: present-tense forms of the perfective verb (= future meaning).",
+  "columns": [
+    {
+      "id": "type",
+      "labelKo": "Type",
+      "labelEn": "Type",
+      "labelRu": "тип",
+      "quizable": false
+    },
+    {
+      "id": "person",
+      "labelKo": "Person",
+      "labelEn": "Person",
+      "labelRu": "лицо"
+    },
+    {
+      "id": "form",
+      "labelKo": "Form",
+      "labelEn": "Form",
+      "labelRu": "форма"
+    },
+    {
+      "id": "ko",
+      "labelKo": "Meaning",
+      "labelEn": "Meaning",
+      "labelRu": "значение"
+    }
+  ],
+  "rows": [
+    {
+      "type": "imperfective",
+      "person": "я",
+      "personPron": "야",
+      "form": "буду читать",
+      "formPron": "부두 치타티",
+      "ko": "I will (be) read(ing)",
+      "en": "I will (be) read(ing)"
+    },
+    {
+      "type": "imperfective",
+      "person": "ты",
+      "personPron": "티",
+      "form": "будешь читать",
+      "formPron": "부데시 치타티",
+      "ko": "you will read",
+      "en": "you will read"
+    },
+    {
+      "type": "imperfective",
+      "person": "он/она",
+      "personPron": "온/아나",
+      "form": "будет читать",
+      "formPron": "부젯 치타티",
+      "ko": "he/she will read",
+      "en": "he/she will read"
+    },
+    {
+      "type": "imperfective",
+      "person": "мы",
+      "personPron": "미",
+      "form": "будем читать",
+      "formPron": "부뎀 치타티",
+      "ko": "we will read",
+      "en": "we will read"
+    },
+    {
+      "type": "imperfective",
+      "person": "вы",
+      "personPron": "비",
+      "form": "будете читать",
+      "formPron": "부데쩨 치타티",
+      "ko": "you (pl./polite) will read",
+      "en": "you (pl./polite) will read"
+    },
+    {
+      "type": "imperfective",
+      "person": "они",
+      "personPron": "아니",
+      "form": "будут читать",
+      "formPron": "부두트 치타티",
+      "ko": "they will read",
+      "en": "they will read"
+    },
+    {
+      "type": "perfective",
+      "person": "я",
+      "personPron": "야",
+      "form": "прочитаю",
+      "formPron": "프라치타유",
+      "ko": "I will (finish) reading",
+      "en": "I will (finish) reading"
+    },
+    {
+      "type": "perfective",
+      "person": "ты",
+      "personPron": "티",
+      "form": "прочитаешь",
+      "formPron": "프라치타예시",
+      "ko": "you will read",
+      "en": "you will read"
+    },
+    {
+      "type": "perfective",
+      "person": "он/она",
+      "personPron": "온/아나",
+      "form": "прочитает",
+      "formPron": "프라치타예트",
+      "ko": "he/she will read",
+      "en": "he/she will read"
+    },
+    {
+      "type": "perfective",
+      "person": "мы",
+      "personPron": "미",
+      "form": "прочитаем",
+      "formPron": "프라치타옘",
+      "ko": "we will read",
+      "en": "we will read"
+    },
+    {
+      "type": "perfective",
+      "person": "вы",
+      "personPron": "비",
+      "form": "прочитаете",
+      "formPron": "프라치타예떼",
+      "ko": "you (pl./polite) will read",
+      "en": "you (pl./polite) will read"
+    },
+    {
+      "type": "perfective",
+      "person": "они",
+      "personPron": "아니",
+      "form": "прочитают",
+      "formPron": "프라치타윳",
+      "ko": "they will read",
+      "en": "they will read"
+    }
+  ],
+  "quiz": {
+    "modes": [
+      {
+        "id": "person-impf",
+        "labelKo": "Person → imperfective future",
+        "labelEn": "Person → imperfective future",
+        "promptColumns": [
+          "person",
+          "type"
+        ],
+        "answerColumn": "form"
+      }
+    ]
+  }
+}
