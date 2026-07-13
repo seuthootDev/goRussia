@@ -1,20 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="USSR emblem mark">
-  <defs>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFE566"/>
-      <stop offset="50%" stop-color="#FFD100"/>
-      <stop offset="100%" stop-color="#C99A00"/>
-    </linearGradient>
-  </defs>
-  <!-- star -->
-  <path fill="url(#gold)" d="M120 22l14.8 45.6H183l-39 28.4 14.9 45.8L120 113.6 81.1 141.8l14.9-45.8-39-28.4h48.2z"/>
-  <!-- sickle -->
-  <path fill="none" stroke="url(#gold)" stroke-width="14" stroke-linecap="round"
-        d="M168 98c-3 48-42 78-82 78-16 0-32-4-44-12 28 4 62-14 78-48 8-16 12-34 12-46"/>
-  <circle cx="168" cy="94" r="9" fill="url(#gold)"/>
-  <!-- hammer -->
-  <g transform="rotate(-38 110 150)">
-    <rect x="102" y="88" width="16" height="98" rx="3" fill="url(#gold)"/>
-    <path fill="url(#gold)" d="M84 84h52l10 22H74z"/>
-  </g>
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+ width="64" height="64" viewBox="0 0 64 64"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0,64) scale(0.1,-0.1)"
+fill="#D4B56A" stroke="none">
+<path d="M358 536 c78 -36 132 -104 132 -167 0 -87 -84 -169 -172 -169 -41 0
+-102 21 -128 45 -13 11 -18 11 -34 0 -15 -12 -17 -17 -7 -29 10 -12 5 -20 -29
+-47 -44 -36 -51 -71 -15 -78 13 -2 31 10 56 39 l36 42 33 -17 c48 -25 128 -30
+172 -12 36 15 36 15 68 -18 27 -28 36 -32 52 -24 31 17 32 38 4 68 l-27 28 26
+49 c23 42 26 59 23 116 -3 57 -8 73 -34 104 -36 45 -89 74 -146 80 l-43 5 33
+-15z"/>
+<path d="M187 421 l-52 -50 35 -36 34 -35 25 25 26 25 62 -62 63 -62 20 20 21
+20 -61 58 c-33 32 -60 61 -60 65 0 4 11 18 25 31 l26 24 -23 13 c-48 26 -86
+17 -141 -36z"/>
+</g>
 </svg>
