@@ -56,6 +56,42 @@ body {
     radial-gradient(ellipse at center, transparent 40%, rgba(0, 0, 0, 0.45) 100%);
 }
 
+.bg-ussr {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.bg-flag {
+  position: absolute;
+  left: 13%;
+  top: 46%;
+  width: min(72vw, 640px);
+  height: min(72vw, 640px);
+  transform: translate(-40%, -50%) rotate(-6deg);
+  background: url("assets/ussr-flag.svg") center / contain no-repeat;
+  opacity: 0.16;
+  filter: sepia(0.25) contrast(0.92) saturate(0.9);
+}
+
+.bg-cccp {
+  position: absolute;
+  left: 85%;
+  top: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%) rotate(-8deg);
+  font-family: var(--font-poster);
+  font-size: clamp(5rem, 11vw, 5rem);
+  letter-spacing: 0.18em;
+  line-height: 1;
+  color: rgba(212, 181, 106, 0.14);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
+  user-select: none;
+}
+
 .grain {
   position: fixed;
   inset: 0;
@@ -94,16 +130,6 @@ body {
   filter: sepia(0.25) contrast(0.95) brightness(0.92);
 }
 
-.brand-text .cccp-mark {
-  margin: 0;
-  font-family: var(--font-poster);
-  font-size: 1.05rem;
-  letter-spacing: 0.22em;
-  line-height: 1;
-  color: var(--brass-soft);
-  text-shadow: 0 1px 0 #1a080a;
-}
-
 .brand-text .eyebrow {
   margin: 0.35rem 0 0;
   font-family: var(--font-label);
@@ -114,7 +140,7 @@ body {
 }
 
 .brand-text h1 {
-  margin: 0.15rem 0 0.05rem;
+  margin: 0;
   font-family: var(--font-poster);
   font-size: clamp(1.55rem, 4vw, 2.05rem);
   line-height: 1.05;

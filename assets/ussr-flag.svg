@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="USSR emblem mark">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE566"/>
+      <stop offset="50%" stop-color="#FFD100"/>
+      <stop offset="100%" stop-color="#C99A00"/>
+    </linearGradient>
+  </defs>
+  <!-- star -->
+  <path fill="url(#gold)" d="M120 22l14.8 45.6H183l-39 28.4 14.9 45.8L120 113.6 81.1 141.8l14.9-45.8-39-28.4h48.2z"/>
+  <!-- sickle -->
+  <path fill="none" stroke="url(#gold)" stroke-width="14" stroke-linecap="round"
+        d="M168 98c-3 48-42 78-82 78-16 0-32-4-44-12 28 4 62-14 78-48 8-16 12-34 12-46"/>
+  <circle cx="168" cy="94" r="9" fill="url(#gold)"/>
+  <!-- hammer -->
+  <g transform="rotate(-38 110 150)">
+    <rect x="102" y="88" width="16" height="98" rx="3" fill="url(#gold)"/>
+    <path fill="url(#gold)" d="M84 84h52l10 22H74z"/>
+  </g>
+</svg>
