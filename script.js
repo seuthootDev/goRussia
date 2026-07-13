@@ -37,6 +37,8 @@ let currentMeta = null;
 let currentMode = null;
 let currentRound = 1;
 let questions = [];
+/** Full question set for the current mode — always used for MCQ distractors */
+let choiceBank = [];
 let wrongAnswers = [];
 let currentIndex = 0;
 let roundCorrectCount = 0;
@@ -133,20 +135,22 @@ function buildQuestions(table, mode) {
   });
 }
 
-function buildChoices(current, allQuestions, size = 4) {
+function buildChoices(current, bank, size = 4) {
   const correct = current.answerDisplay;
   const pool = [
     ...new Set(
-      allQuestions
+      bank
         .map((q) => q.answerDisplay)
         .filter((text) => text && normalizeAnswer(text) !== normalizeAnswer(correct))
     )
   ];
-  const distractors = shuffle(pool).slice(0, Math.max(0, size - 1));
-  while (distractors.length < size - 1) {
+  const need = Math.max(0, size - 1);
+  const distractors = shuffle(pool).slice(0, need);
+  // Prefer a full set from the bank; only pad if the table itself is tiny
+  while (distractors.length < need) {
     distractors.push(`— ${distractors.length + 1}`);
   }
-  return shuffle([correct, ...distractors.slice(0, size - 1)]);
+  return shuffle([correct, ...distractors]);
 }
 
 function renderHome(filterLesson = "all") {
@@ -258,7 +262,8 @@ function renderStudy(table, meta) {
 function startQuiz(mode) {
   currentMode = mode;
   currentRound = 1;
-  questions = shuffle(buildQuestions(currentTable, mode));
+  choiceBank = buildQuestions(currentTable, mode);
+  questions = shuffle([...choiceBank]);
   wrongAnswers = [];
   currentIndex = 0;
   roundCorrectCount = 0;
@@ -289,7 +294,10 @@ function renderQuestion() {
   feedbackDetail.textContent = "Select an answer.";
   feedback.className = "feedback";
 
-  const choices = buildChoices(current, questions, Math.min(4, Math.max(2, questions.length)));
+  const bank = choiceBank.length ? choiceBank : questions;
+  const choiceCount = Math.min(4, Math.max(2, bank.length));
+  // Fresh random distractors + order every time this question is shown
+  const choices = buildChoices(current, bank, choiceCount);
   choicesEl.innerHTML = "";
   choices.forEach((choice) => {
     const btn = document.createElement("button");
@@ -299,7 +307,7 @@ function renderQuestion() {
     if (normalizeAnswer(choice) === normalizeAnswer(current.answerDisplay) && current.answerPron) {
       btn.title = current.answerPron;
     } else {
-      const donor = questions.find(
+      const donor = bank.find(
         (q) => normalizeAnswer(q.answerDisplay) === normalizeAnswer(choice)
       );
       if (donor?.answerPron) btn.title = donor.answerPron;
@@ -383,9 +391,11 @@ retryButton.addEventListener("click", () => {
   const mode = retryButton.dataset.mode;
   if (mode === "restart") {
     currentRound = 1;
-    questions = shuffle(buildQuestions(currentTable, currentMode));
+    choiceBank = buildQuestions(currentTable, currentMode);
+    questions = shuffle([...choiceBank]);
   } else {
     currentRound += 1;
+    // Keep choiceBank as the full mode set so distractors stay rich & reshuffled
     questions = shuffle(
       wrongAnswers.map(
         ({ id, prompt, promptPron, answers, answerDisplay, answerPron, answerColumn }) => ({
